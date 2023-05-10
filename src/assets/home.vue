@@ -89,7 +89,7 @@
             <div class="w-[80%]">
                 <div class="text-center">
                     <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
-                    <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
+                    <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsuma</p>
                     <p class="text-[#464646] tag_price">$150</p>
                 </div>
             </div>
