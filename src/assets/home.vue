@@ -27,84 +27,84 @@
         <div class="parent pl-[275px] w-full place-items-center pt-[103px] max-[1000px]:pl-0">
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect ">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsum</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
             </div>
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
-                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%]" alt="">
+                    <img src="../../public/tenisice_primjer1.jpg" class="w-[100%] shoes_image" alt="">
                     <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight ">Lorem Ipsuma</p>
                     <p><a href="#" id="style-2" class="a1" data-replace="view more"><span class="text-[#464646] tag_price">150$</span></a></p>
                 </div>
@@ -133,7 +133,16 @@ grid-template-rows: repeat(6, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
-
+@media only screen and (max-width: 900px) {
+    .parent {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+@media only screen and (max-width: 720px) {
+    .parent {
+grid-template-columns: repeat(1, 1fr);
+}
+}
 .a1 {
   overflow: hidden;
   position: relative;
@@ -164,6 +173,14 @@ grid-row-gap: 0px;
 .hover_effect:hover .a1::before {
   transform-origin: 0% 50%;
   transform: scaleX(1);
+}
+.hover_effect:hover .shoes_image{
+    transform: scale(1.2);
+}
+.shoes_image{
+    transition: all .37s ease-in-out;
+    position: relative;
+    z-index:-1;
 }
 .hover_effect:hover .a1::after {
   transform: translate3d(0, 0, 0);
