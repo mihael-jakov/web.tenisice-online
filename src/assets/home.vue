@@ -11,19 +11,62 @@
                 <a href="https://www.facebook.com/marketplace/item/758450665833123"><img src="../../public/facebook_icon.svg" alt="" class="w-[18px] h-[24px] ml-4"></a>
             </div>
         </div>
-        <div class="fixed top-0 z-101 bg-white w-full h-[70px] min-[1001px]:hidden flex justify-center items-center" style="box-shadow: 1px 2px 8px 0 rgba(0,0,0,.06);">
-            <div class="w-full mx-[5rem] flex items-center">
-                <label class="burger" for="burger">
-                    <input type="checkbox" id="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <div class="w-full flex justify-center">
-                    Tenisice Online
-                </div>
-            </div>
-        </div>
+
+        <!-- hamburger menu -->
+        <ul
+          class="fixed flex justify-between items-center min-[1001px]:hidden z-[101] bg-[#FAF9F6] w-full top-0 left-0 px-[4em] py-[1em] max-[500px]:px-[1em]"
+        >
+        <li class="flex-1" id="navbar_logo">
+            Tenisice Online 
+          </li>
+          <button
+            type="button"
+            id="navbar-toggle"
+            aria-controls="navbar-menu"
+            class="w-[30px] h-[30px] flex justify-between items-center"
+            :class="{ active: isActive }"
+            @click="showMobile"
+          >
+            <span
+              aria-hidden="true"
+              class="bg-[#1E5D61] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+              :class="{
+                'rotate-45': isActive,
+                ' -translate-y-1.5': !isActive,
+              }"
+            ></span>
+            <span
+              aria-hidden="true"
+              class="bg-[#1E5D61] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+              :class="{ 'opacity-0': isActive }"
+            ></span>
+            <span
+              aria-hidden="true"
+              class="bg-[#1E5D61] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+              :class="{
+                '-rotate-45': isActive,
+                ' translate-y-1.5': !isActive,
+              }"
+            ></span>
+          </button>
+
+
+        </ul>
+        <ul
+          @click="showMobile"
+          id="hamburger-menu"
+          class="fixed w-[80%] h-screen text-[#1E5D61] flex flex-col items-center gap-[3em] min-[1001px]:hidden bg-[#FAF9F6] pt-[20vh] z-[100] overflow-hidden right-[-50%]"
+          :class="{ active: isActive }"
+        >
+          <li class="" id="navbar_naslovnica">
+           Naslovnica
+          </li>
+
+          <li class="" id="navbar_naslovnica">
+            Kontakt
+          </li>
+        </ul>
+
         <div class="parent pl-[275px] w-full place-items-center pt-[103px] max-[1000px]:pl-0">
             <div class="w-[80%] m-8">
                 <div class="text-center hover_effect">
@@ -115,8 +158,19 @@
     </div>
 </template>
 
-<script setup>
-
+<script>
+export default {
+  data() {
+    return {
+      isActive: false,
+    };
+  },
+  methods: {
+    showMobile() {
+      this.isActive = !this.isActive;
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -194,63 +248,24 @@ grid-template-columns: repeat(1, 1fr);
 .hover_effect:hover .a1 span {
   transform: translate3d(-200%, 0, 0);
 }
-.burger {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  background: transparent;
-  cursor: pointer;
-  display: block;
-}
-
-.burger input {
-  display: none;
-}
-
-.burger span {
-  display: block;
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background: black;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: .25s ease-in-out;
-}
-
-.burger span:nth-of-type(1) {
-  top: 0px;
-  transform-origin: left center;
-}
-
-.burger span:nth-of-type(2) {
+#hamburger-menu {
   top: 50%;
-  transform: translateY(-50%);
-  transform-origin: left center;
+  transform: translate(50%, -50%);
+  transition: all 0.4s ease-in-out;
 }
-
-.burger span:nth-of-type(3) {
-  top: 100%;
-  transform-origin: left center;
-  transform: translateY(-100%);
+.active {
+  right: 40%;
+  transition: all 0.4s ease-in-out;
 }
-
-.burger input:checked ~ span:nth-of-type(1) {
-  transform: rotate(45deg);
-  top: 0px;
-  left: 0px;
+.border_nula {
+  border: 0;
 }
-
-.burger input:checked ~ span:nth-of-type(2) {
-  width: 0%;
-  opacity: 0;
+.active + #navbar-menu {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  visibility: visible;
 }
-
-.burger input:checked ~ span:nth-of-type(3) {
-  transform: rotate(-45deg);
-  top: 14px;
-  left: 0px;
+.active + #navbar-menu .navbar-links {
+  padding: 1em;
 }
 </style>
