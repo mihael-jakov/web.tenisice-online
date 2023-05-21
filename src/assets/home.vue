@@ -24,7 +24,7 @@
 
     <!-- hamburger menu -->
     <ul
-      class="fixed flex justify-between items-center min-[1001px]:hidden z-[101] bg-[#FAF9F6] w-full top-0 left-0 px-[4em] py-[1em] max-[500px]:px-[1em]"
+      class="fixed bg-white z-[999] flex justify-between items-center min-[1001px]:hidden w-full top-0 left-0 px-[4em] py-[1em] max-[500px]:px-[1em]" style="box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.06)"
     >
       <li class="flex-1" id="navbar_logo">Tenisice Online</li>
       <button
@@ -37,7 +37,7 @@
       >
         <span
           aria-hidden="true"
-          class="bg-[#1E5D61] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+          class="bg-[black] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
           :class="{
             'rotate-45': isActive,
             ' -translate-y-1.5': !isActive,
@@ -45,12 +45,12 @@
         ></span>
         <span
           aria-hidden="true"
-          class="bg-[#1E5D61] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+          class="bg-[black] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
           :class="{ 'opacity-0': isActive }"
         ></span>
         <span
           aria-hidden="true"
-          class="bg-[#1E5D61] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
+          class="bg-[black] block absolute h-[3px] w-[30px] rounded transform transition duration-500 ease-in-out"
           :class="{
             '-rotate-45': isActive,
             ' translate-y-1.5': !isActive,
@@ -61,215 +61,42 @@
     <ul
       @click="showMobile"
       id="hamburger-menu"
-      class="fixed w-[80%] h-screen text-[#1E5D61] flex flex-col items-center gap-[3em] min-[1001px]:hidden bg-[#FAF9F6] pt-[20vh] z-[100] overflow-hidden right-[-50%]"
+      class="fixed w-[80%] h-screen text-[#1E5D61] flex flex-col items-center gap-[3em] min-[1001px]:hidden bg-[white] pt-[20vh] z-[105] overflow-hidden right-[-50%]"
+      style="box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.06)"
       :class="{ active: isActive }"
     >
-      <li class="" id="navbar_naslovnica">Naslovnica</li>
+      <li class="font-bold text-[17px] leading-5 uppercase text-black" id="navbar_naslovnica">Naslovnica</li>
 
-      <li class="" id="navbar_naslovnica">Kontakt</li>
+      <li class="font-bold text-[17px] leading-5 uppercase text-black" id="navbar_naslovnica">Kontakt</li>
     </ul>
-
-    <div class="parent pl-[275px] w-full place-items-center pt-[103px] max-[1000px]:pl-0">
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
+    <div class="flex items-center justify-center gap-[20em]">
+        <div class="">
+          <div>Select a model</div>
+          <select v-model="selected">
+          <option disabled value="">Please select one</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+          </select>
         </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
+        <div class="">
+          Search bar
         </div>
-      </div>
-      <div class="w-[80%] m-8">
+    </div>
+    <div class="parent pl-[275px] w-full place-items-center max-[1000px]:pl-0">
+      <div class="w-[80%] m-8"  v-for="post in filteredList">
         <div class="text-center hover_effect">
           <img
-            src="../../public/tenisice_primjer1.jpg"
+            v-bind:src="post.img"
             class="w-[100%] shoes_image"
             alt=""
           />
           <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
+            {{ post.title }}
           </p>
           <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsum
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
-            >
-          </p>
-        </div>
-      </div>
-      <div class="w-[80%] m-8">
-        <div class="text-center hover_effect">
-          <img
-            src="../../public/tenisice_primjer1.jpg"
-            class="w-[100%] shoes_image"
-            alt=""
-          />
-          <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
-            Lorem Ipsuma
-          </p>
-          <p>
-            <a href="#" id="style-2" class="a1" data-replace="view more"
-              ><span class="text-[#464646] tag_price">150$</span></a
+            <a v-bind:href="post.link" id="style-2" class="a1" data-replace="view more"
+              ><span class="text-[#464646] tag_price">{{ post.price }}</span></a
             >
           </p>
         </div>
@@ -279,10 +106,39 @@
 </template>
 
 <script>
+class Post {
+  constructor(title, link, price, img) {
+    this.title = title;
+    this.link = link;
+    this.price = price;
+    this.img = img;
+  }
+}
 export default {
   data() {
     return {
       isActive: false,
+      search: '',
+      postList: [
+        new Post(
+          'Yeezy 350 boost',
+          '#',
+          '350$',
+          '../../public/tenisice_primjer1.jpg'
+        ),
+        new Post(
+          'Yeezy 350 boost',
+          '#',
+          '350$',
+          '../../public/tenisice_primjer1.jpg'
+        ),
+        new Post(
+          'Yeezy 350 boost',
+          '#',
+          '350$',
+          '../../public/tenisice_primjer1.jpg'
+        ),
+      ]
     };
   },
   methods: {
@@ -290,6 +146,13 @@ export default {
       this.isActive = !this.isActive;
     },
   },
+  computed: {
+    filteredList() {
+      return this.postList.filter(post => {
+        return post.title.toLowerCase().includes(this.search.toLowerCase())
+      })
+    }
+  }
 };
 </script>
 
@@ -306,7 +169,17 @@ export default {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1450px) {
+  .parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .parent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 1000px) {
   .parent {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -316,6 +189,7 @@ export default {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 .a1 {
   overflow: hidden;
   position: relative;
@@ -368,6 +242,7 @@ export default {
   transform: translate3d(-200%, 0, 0);
 }
 #hamburger-menu {
+  z-index: 102;
   top: 50%;
   transform: translate(50%, -50%);
   transition: all 0.4s ease-in-out;
