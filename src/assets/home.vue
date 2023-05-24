@@ -69,22 +69,14 @@
 
       <li class="font-bold text-[17px] leading-5 uppercase text-black" id="navbar_naslovnica">Kontakt</li>
     </ul>
-    <div class="flex items-center justify-center gap-[20em]">
-        <div class="">
-          <div>Select a model</div>
-          <select v-model="selected">
-          <option disabled value="">Please select one</option>
-            <option>A</option>
-            <option>B</option>
-            <option>C</option>
-          </select>
-        </div>
-        <div class="">
-          Search bar
+    <div class="pl-[300px] pt-[25px] max-[1001px]:pl-[4rem] max-[1001px]:pt-[5rem] max-[500px]:pl-[1rem] max-[500px]:w-[97%] max-[500px]:justify-center">
+        <div class="flex gap-[2em] max-[500px]:flex-col ">
+          <label>Search model or price: </label>
+          <input type="text" v-model="search" placeholder="Search..." class="bg-white max-[500px]:max-w-[100%]" style="border-bottom:1px solid black;"/>
         </div>
     </div>
     <div class="parent pl-[275px] w-full place-items-center max-[1000px]:pl-0">
-      <div class="w-[80%] m-8"  v-for="post in filteredList">
+      <div class="w-[80%] m-8 cursor-pointer" @click="open_modal"  v-for="post in filteredList">
         <div class="text-center hover_effect">
           <img
             v-bind:src="post.img"
@@ -99,6 +91,22 @@
               ><span class="text-[#464646] tag_price">{{ post.price }}</span></a
             >
           </p>
+        </div>
+      </div>
+    </div>
+    <div v-if="modal" v-for="post in filteredList" class="fixed w-[100%] h-[100%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-[0.3]">
+      <div class="fixed w-[70%] h-[70%] bg-[green] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div class="flex items-center justify-between h-full w-[1300px]">
+          <img v-bind:src="post.img" alt="" class="w-[50%]">
+          <div class="w-[50%]">
+            <h2>{{post.title}}</h2>
+            <p>{{ post.price }}</p>
+            <p>review</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
+            <p>velicina</p>
+            <p>Category: Shoes</p>
+            <p></p>
+          </div>
         </div>
       </div>
     </div>
@@ -118,6 +126,7 @@ export default {
   data() {
     return {
       isActive: false,
+      modal:false,
       search: '',
       postList: [
         new Post(
@@ -127,15 +136,15 @@ export default {
           '../../public/tenisice_primjer1.jpg'
         ),
         new Post(
-          'Yeezy 350 boost',
+          'Yeezy 40 boost',
           '#',
           '350$',
           '../../public/tenisice_primjer1.jpg'
         ),
         new Post(
-          'Yeezy 350 boost',
+          'Yeezy 250 boost',
           '#',
-          '350$',
+          '150$',
           '../../public/tenisice_primjer1.jpg'
         ),
       ]
@@ -145,6 +154,9 @@ export default {
     showMobile() {
       this.isActive = !this.isActive;
     },
+    open_modal(){
+      this.modal = !this.modal
+    }
   },
   computed: {
     filteredList() {
