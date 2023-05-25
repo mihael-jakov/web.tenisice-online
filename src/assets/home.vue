@@ -76,7 +76,7 @@
         </div>
     </div>
     <div class="parent pl-[275px] w-full place-items-center max-[1000px]:pl-0">
-      <div class="w-[80%] m-8 cursor-pointer" @click="open_modal"  v-for="post in filteredList">
+      <div class="w-[80%] m-8 cursor-pointer"   v-for="post in filteredList" @click="open_modal">
         <div class="text-center hover_effect">
           <img
             v-bind:src="post.img"
@@ -94,13 +94,14 @@
         </div>
       </div>
     </div>
-    <div v-if="modal" v-for="post in filteredList" class="fixed w-[100%] h-[100%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-[0.3]">
-      <div class="fixed w-[70%] h-[70%] bg-[green] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <div class="flex items-center justify-between h-full w-[1300px]">
-          <img v-bind:src="post.img" alt="" class="w-[50%]">
+    <div v-if="modal" class="fixed w-[100%] h-[100%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-[0.3]">
+      <div class="fixed w-[70%] h-[70%] bg-[white] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div class="float-right mt-8 mr-12" @click="open_modal">a</div>
+        <div class="flex items-center justify-between h-[80%] w-[1300px]">
+          <img v-bind:src="modal_src" alt="" class="w-[50%]">
           <div class="w-[50%]">
-            <h2>{{post.title}}</h2>
-            <p>{{ post.price }}</p>
+            <h2>{{ modal_name }}</h2>
+            <p>{{ modal_price }}</p>
             <p>review</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
             <p>velicina</p>
@@ -127,6 +128,9 @@ export default {
     return {
       isActive: false,
       modal:false,
+      modal_price:"",
+      modal_name:"",
+      modal_src:"",
       search: '',
       postList: [
         new Post(
@@ -154,8 +158,11 @@ export default {
     showMobile() {
       this.isActive = !this.isActive;
     },
-    open_modal(){
-      this.modal = !this.modal
+    open_modal(e){
+      this.modal = !this.modal;
+      this.modal_src = e.target.querySelector('img').src;
+      this.modal_name = e.target.querySelector('p').textContent;
+      this.modal_price = e.target.querySelector('span').textContent;
     }
   },
   computed: {
