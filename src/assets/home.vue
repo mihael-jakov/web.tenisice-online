@@ -71,7 +71,7 @@
     </ul>
     <div class="pl-[300px] pt-[25px] max-[1001px]:pl-[4rem] max-[1001px]:pt-[5rem] max-[500px]:pl-[1rem] max-[500px]:w-[97%] max-[500px]:justify-center">
         <div class="flex gap-[2em] max-[500px]:flex-col ">
-          <label>Search model or price: </label>
+          <label>Search model: </label>
           <input type="text" v-model="search" placeholder="Search..." class="bg-white max-[500px]:max-w-[100%]" style="border-bottom:1px solid black;"/>
         </div>
     </div>
@@ -96,17 +96,16 @@
     </div>
     <div v-if="modal" class="fixed w-[100%] h-[100%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-[0.3]">
       <div class="fixed w-[70%] h-[70%] bg-[white] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <div class="float-right mt-8 mr-12" @click="open_modal">a</div>
+        <div class="float-right mt-8 mr-12 cursor-pointer" @click="open_modal">X</div>
         <div class="flex items-center justify-between h-[80%] w-[1300px]">
           <img v-bind:src="modal_src" alt="" class="w-[50%]">
           <div class="w-[50%]">
-            <h2>{{ modal_name }}</h2>
-            <p>{{ modal_price }}</p>
-            <p>review</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
-            <p>velicina</p>
-            <p>Category: Shoes</p>
-            <p></p>
+            <h2 class="mb-[17px] uppercase text-[40px] leading-tight font-bold">{{ modal_name }}</h2>
+            <p class="text-[23px] font-bold">{{ modal_price }}</p>
+            <p class="font-light text-[#464646] mb-[37px] mt-[14px] text-[14px] tag_price">(1 customer review)</p>
+            <p class="pb-[38px] tag_price text-[#464646] text-[16px] w-[530px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
+            <p class="tag_price">velicina: 37-47</p>
+            <p class="tag_price">Category: Shoes</p>
           </div>
         </div>
       </div>
