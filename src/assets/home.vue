@@ -5,9 +5,9 @@
       style="box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.06)"
     >
       <img src="../../public/logo.png" alt="" class="rounded-[50%]" />
-      <div class="font-bold text-[17px] leading-5 uppercase">
-        <p class="py-[5px]">Home</p>
-        <p class="py-[5px]">Portfolio</p>
+      <div class="font-bold text-[17px] leading-5 uppercase underline_hover_parent">
+        <p class="py-[5px] underline_hover cursor-pointer">Home</p>
+        <p class="py-[5px] underline_hover cursor-pointer">Portfolio</p>
       </div>
       <div class="mb-[36px] flex flex-row">
         <a href="https://www.instagram.com/tenisice_online/"
@@ -279,5 +279,40 @@ export default {
 }
 .active + #navbar-menu .navbar-links {
   padding: 1em;
+}
+
+.underline_hover_parent .underline_hover {
+  overflow: hidden;
+}
+
+.underline_hover_parent .underline_hover::after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.underline_hover_parent .underline_hover:hover::after,
+.underline_hover_parent .underline_hover:focus::after{
+  transform: translate3d(0, 0, 0);
+}
+.underline_hover {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+.underline_hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  width: 30%;
+  height: 0.1em;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+.underline_hover:hover::after,
+.underline_hover:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
 }
 </style>
