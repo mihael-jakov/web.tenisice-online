@@ -6,8 +6,8 @@
     >
       <img src="../../public/logo.png" alt="" class="rounded-[50%]" />
       <div class="font-bold text-[17px] leading-5 uppercase underline_hover_parent">
-        <p class="py-[5px] underline_hover cursor-pointer">Home</p>
-        <p class="py-[5px] underline_hover cursor-pointer">Portfolio</p>
+        <p class="py-[5px] underline_hover cursor-pointer"><a href="#">Home</a></p>
+        <p class="py-[5px] underline_hover cursor-pointer"><a href="https://www.instagram.com/tenisice_online/" target="_blank">Kontakt</a></p>
       </div>
       <div class="mb-[36px] flex flex-row">
         <a href="https://www.instagram.com/tenisice_online/"
@@ -65,9 +65,9 @@
       style="box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.06)"
       :class="{ active: isActive }"
     >
-      <li class="font-bold text-[17px] leading-5 uppercase text-black" id="navbar_naslovnica">Naslovnica</li>
+      <li class="font-bold text-[17px] leading-5 uppercase text-black" id="navbar_naslovnica">Home</li>
 
-      <li class="font-bold text-[17px] leading-5 uppercase text-black" id="navbar_naslovnica">Kontakt</li>
+      <li class="font-bold text-[17px] leading-5 uppercase text-black" id="navbar_naslovnica"><a href="https://www.instagram.com/tenisice_online/" target="_blank">Kontakt</a></li>
     </ul>
     <div class="pl-[300px] pt-[25px] max-[1001px]:pl-[4rem] max-[1001px]:pt-[5rem] max-[500px]:pl-[1rem] max-[500px]:w-[97%] max-[500px]:justify-center">
         <div class="flex gap-[2em] max-[500px]:flex-col ">
@@ -80,7 +80,7 @@
         <div class="text-center hover_effect">
           <img
             v-bind:src="post.img"
-            class="w-[100%] shoes_image"
+            class="w-[100%] shoes_image mb-8"
             alt=""
           />
           <p class="mt-[4px] uppercase font-size-[17px] font-bold leading-tight">
@@ -95,17 +95,17 @@
       </div>
     </div>
     <div v-if="modal" class="fixed w-[100%] h-[100%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-[0.3]">
-      <div class="fixed w-[70%] h-[70%] bg-[white] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <div class="float-right mt-8 mr-12 cursor-pointer" @click="open_modal">X</div>
-        <div class="flex items-center justify-between h-[80%] w-[1300px]">
-          <img v-bind:src="modal_src" alt="" class="w-[50%]">
+      <div class="fixed w-[70%] h-[70%] bg-[white] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center  max-[1075px]:h-auto">
+        <div class="fixed top-[8%] left-[95%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer max-[401px]:left-[90%]" @click="open_modal">X</div>
+        <div class="flex items-center justify-between h-[80%] w-[90%]  max-[1075px]:flex-col">
+          <img v-bind:src="modal_src" alt="" class="w-[50%]   max-[860px]:w-[80%]">
           <div class="w-[50%]">
-            <h2 class="mb-[17px] uppercase text-[40px] leading-tight font-bold">{{ modal_name }}</h2>
-            <p class="text-[23px] font-bold">{{ modal_price }}</p>
+            <h2 class="mb-[17px] uppercase text-[40px] leading-tight font-bold  max-[1002px]:text-[2rem] max-[501px]:text-[1.2rem]">{{ modal_name }}</h2>
+            <p class="text-[23px] font-bold max-[501px]:text-[1rem]">{{ modal_price }}</p>
             <p class="font-light text-[#464646] mb-[37px] mt-[14px] text-[14px] tag_price">(1 customer review)</p>
-            <p class="pb-[38px] tag_price text-[#464646] text-[16px] w-[530px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
+            <p class="pb-[38px] tag_price text-[#464646] text-[16px] w-[530px] max-[1400px]:w-[auto] max-[605px]:hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
             <p class="tag_price">velicina: 37-47</p>
-            <p class="tag_price">Category: Shoes</p>
+            <p class="tag_price  max-[1075px]:mb-8">Category: Shoes</p>
           </div>
         </div>
       </div>
@@ -133,22 +133,58 @@ export default {
       search: '',
       postList: [
         new Post(
-          'Yeezy 350 boost',
+          'Off-White x Nike Jordan 1 Powder Blue',
           '#',
           '350$',
-          '../../public/tenisice_primjer1.jpg'
+          '../../public/Off white x air jordan 1 blue powder.png'
         ),
         new Post(
-          'Yeezy 40 boost',
+          'Travis scott fragment design low',
           '#',
           '350$',
-          '../../public/tenisice_primjer1.jpg'
+          '../../public/Travis scott fragment design low.jpg'
         ),
         new Post(
-          'Yeezy 250 boost',
+          'Yeezy 350 V2 ZYON',
           '#',
           '150$',
-          '../../public/tenisice_primjer1.jpg'
+          '../../public/yeezy 350 v2 zyon.jpg'
+        ),
+        new Post(
+          'Nike x Off White Dunk Low',
+          '#',
+          '150$',
+          '../../public/Nike x Off White Dunk Low.jpg'
+        ),
+        new Post(
+          'Air Jordan 4 kaws gray',
+          '#',
+          '150$',
+          '../../public/Air Jordan 4 kaws gray.jpg'
+        ),
+        new Post(
+          'Nike x Travis Scott Cactus Jack Air Force Low',
+          '#',
+          '150$',
+          '../../public/Nike x Travis Scott Cactus Jack Air Force Low.jpg'
+        ),
+        new Post(
+          'Yeezy 350 ‘Carbon’',
+          '#',
+          '155$',
+          '../../public/Yeezy 350 ‘Carbon’.png'
+        ),
+        new Post(
+          'Air Jordan x Travis Scott 4 Retro Cactus Jack',
+          '#',
+          '150$',
+          '../../public/Air Jordan x Travis Scott 4 Retro Cactus Jack.png'
+        ),
+        new Post(
+          'Nike x Off White Air Force 1 Low MCA Universiti Blue',
+          '#',
+          '150$',
+          '../../public/Nike x Off White Air Force 1 Low MCA Universiti Blue.png'
         ),
       ]
     };
