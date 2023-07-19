@@ -74,6 +74,20 @@
           <label>Search model: </label>
           <input type="text" v-model="search" placeholder="Search..." class="bg-white max-[500px]:max-w-[100%]" style="border-bottom:1px solid black;"/>
         </div>
+        <div class="">
+          <select name="" id="">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+        </div>
     </div>
     <div class="parent pl-[275px] w-full place-items-center max-[1000px]:pl-0">
       <div class="w-[80%] m-8 cursor-pointer"   v-for="post in filteredList" @click="open_modal">
@@ -95,18 +109,21 @@
       </div>
     </div>
     <div v-if="modal" class="fixed w-[100%] h-[100%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-[0.3]">
-      <div class="fixed w-[70%] h-[70%] bg-[white] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center  max-[1075px]:h-auto">
+      <div class="fixed w-[70%]  h-[70%] bg-[white] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center  max-[1075px]:h-auto">
         <div class="fixed top-[8%] left-[95%] transform -translate-x-1/2 -translate-y-1/2 cursor-pointer max-[401px]:left-[90%]" @click="open_modal">X</div>
-        <div class="flex items-center justify-between h-[80%] w-[90%]  max-[1075px]:flex-col">
-          <img v-bind:src="modal_src" alt="" class="w-[50%]   max-[860px]:w-[80%]">
+        <div class="flex items-center justify-between h-[80%] w-[100%] max-[1075px]:flex-col">
+          <div class="flex flex-row justify-center items-center gap-16 w-[100%] max-[1075px]:flex-col">
+            <img v-bind:src="modal_src" alt="" class="w-[35%] max-[1075px]:pt-8">      
           <div class="w-[50%]">
             <h2 class="mb-[17px] uppercase text-[40px] leading-tight font-bold  max-[1002px]:text-[2rem] max-[501px]:text-[1.2rem]">{{ modal_name }}</h2>
             <p class="text-[23px] font-bold max-[501px]:text-[1rem]">{{ modal_price }}</p>
             <p class="font-light text-[#464646] mb-[37px] mt-[14px] text-[14px] tag_price">(1 customer review)</p>
-            <p class="pb-[38px] tag_price text-[#464646] text-[16px] w-[530px] max-[1400px]:w-[auto] max-[605px]:hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
+            <p class="pb-[38px] tag_price text-[#464646] text-[16px] w-[530px] max-[1400px]:w-[auto] max-[860px]:hidden max-[605px]:hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
             <p class="tag_price">velicina: 37-47</p>
             <p class="tag_price  max-[1075px]:mb-8">Category: Shoes</p>
           </div>
+          </div>
+
         </div>
       </div>
     </div>
