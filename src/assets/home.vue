@@ -120,7 +120,7 @@
             <p class="font-light text-[#464646] mb-[37px] mt-[14px] text-[14px] tag_price">(1 customer review)</p>
             <p class="pb-[38px] tag_price text-[#464646] text-[16px] w-[530px] max-[1400px]:w-[auto] max-[860px]:hidden max-[605px]:hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus lorem.</p>
             <p class="tag_price">velicina: 37-47</p>
-            <p class="tag_price  max-[1075px]:mb-8">Category: Shoes</p>
+            <p class="tag_price  max-[1075px]:mb-8">Category: Shoes!</p>
           </div>
           </div>
 
