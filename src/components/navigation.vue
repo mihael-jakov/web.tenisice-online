@@ -9,11 +9,11 @@
   <!-- nav -->
   <nav class="nav">
     <ul class="list">
-      <li class="item"> <a class="link"> Link 1 </a> </li>
-      <li class="item"> <a class="link"> Link 2 </a> </li>
-      <li class="item"> <a class="link"> Link 4 </a> </li>
-      <li class="item"> <a class="link"> Link 5 </a> </li>
-      <li class="item"> <a class="link"> Link 6 </a> </li>
+      <li class="item"> <a class="link"> Home </a> </li>
+      <li class="item"> <a class="link"> About Us </a> </li>
+      <li class="item"> <a class="link"> Instagram </a> </li>
+      <li class="item"> <a class="link"> Contact Us </a> </li>
+      <li class="item"> <a class="link"> FAQ </a> </li>
     </ul>
 </nav>
 </template>
@@ -24,9 +24,6 @@
 
 <style scoped>
 /* page styling */
-*{
-    background-color: transparent !important;
-}
 section {
   max-width: 900px;
   margin: 0 auto;
@@ -49,7 +46,7 @@ section p {
 
 .button {
   position: relative;
-  background-color: white !important;
+  background-color: white;
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
@@ -108,7 +105,7 @@ section p {
   font-weight: 300;
   padding: 1rem 2rem;
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
   text-transform: uppercase;
   background-image: linear-gradient(
     120deg,
@@ -123,6 +120,7 @@ section p {
 .link:hover,
 .link:active {
     transition: all 0.19s ease-in-out;
+    text-decoration: none !important;
   color: rgb(73, 73, 73);
   cursor: pointer;
 }
@@ -151,7 +149,7 @@ section p {
 .icon::after {
   width: 3rem;
   height: 2px;
-  background-color: gray !important;
+  background-color: gray;
   display: inline-block;
 }
 
@@ -178,7 +176,7 @@ section p {
 }
 
 .checkbox:checked + .button .icon {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 .checkbox:checked + .button .icon::before {
