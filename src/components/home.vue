@@ -1,6 +1,6 @@
 <template>
     <navigation_menu/>
-    <img src="../assets/tenisice-logo.png" alt="" class="w-[150px] h-[150px] mt-4 ml-8">
+    <img src="../assets/tenisice-logo.png" alt="" loading="lazy" class="w-[150px] h-[150px] mt-4 ml-8">
     <div class="flex w-full justify-between">
       <div class="w-[20%] flex justify-center">
         <ul>
@@ -15,79 +15,79 @@
       <div class="w-[80%] flex justify-center">
         <div class="parent">
           <div class="div1">
-            <img src="../assets/tenisice/1.jpg" alt="">
+            <img src="../assets/tenisice/1.jpg" alt="" loading="lazy">
           </div>
           <div class="div2">
-            <img src="../assets/tenisice/2.jpg" alt="">
+            <img src="../assets/tenisice/2.jpg" alt="" loading="lazy">
           </div>
           <div class="div3">
-            <img src="../assets/tenisice/3.jpg" alt="">
+            <img src="../assets/tenisice/3.jpg" alt="" loading="lazy">
           </div>
           <div class="div4">
-            <img src="../assets/tenisice/4.jpg" alt="">
+            <img src="../assets/tenisice/4.jpg" alt="" loading="lazy">
           </div>
           <div class="div5">
-            <img src="../assets/tenisice/5.jpg" alt="">
+            <img src="../assets/tenisice/5.jpg" alt="" loading="lazy">
           </div>
           <div class="div6">
-            <img src="../assets/tenisice/6.jpg" alt="">
+            <img src="../assets/tenisice/6.jpg" alt="" loading="lazy">
           </div>
           <div class="div7">
-            <img src="../assets/tenisice/7.jpg" alt="">
+            <img src="../assets/tenisice/7.jpg" alt="" loading="lazy">
           </div>
           <div class="div8">
-            <img src="../assets/tenisice/8.jpg" alt="">
+            <img src="../assets/tenisice/8.jpg" alt="" loading="lazy">
           </div>
           <div class="div9">
-            <img src="../assets/tenisice/9.jpg" alt="">
+            <img src="../assets/tenisice/9.jpg" alt="" loading="lazy">
           </div>
           <div class="div10">
-            <img src="../assets/tenisice/10.jpg" alt="">
+            <img src="../assets/tenisice/10.jpg" alt="" loading="lazy">
           </div>
           <div class="div11">
-            <img src="../assets/tenisice/11.jpg" alt="">
+            <img src="../assets/tenisice/11.jpg" alt="" loading="lazy">
           </div>
           <div class="div12">
-            <img src="../assets/tenisice/12.jpg" alt="">
+            <img src="../assets/tenisice/12.jpg" alt="" loading="lazy">
           </div>
           <div class="div13">
-            <img src="../assets/tenisice/13.jpg" alt="">
+            <img src="../assets/tenisice/13.jpg" alt="" loading="lazy">
           </div>
           <div class="div14">
-            <img src="../assets/tenisice/14.jpg" alt="">
+            <img src="../assets/tenisice/14.jpg" alt="" loading="lazy">
           </div>
           <div class="div15">
-            <img src="../assets/tenisice/15.jpg" alt="">
+            <img src="../assets/tenisice/15.jpg" alt="" loading="lazy">
           </div>
           <div class="div16">
-            <img src="../assets/tenisice/16.jpg" alt="">
+            <img src="../assets/tenisice/16.jpg" alt="" loading="lazy">
           </div>
           <div class="div17">
-            <img src="../assets/tenisice/17.jpg" alt="">
+            <img src="../assets/tenisice/17.jpg" alt="" loading="lazy">
           </div>
           <div class="div18">
-            <img src="../assets/tenisice/18.jpg" alt="">
+            <img src="../assets/tenisice/18.jpg" alt="" loading="lazy">
           </div>
           <div class="div19">
-            <img src="../assets/tenisice/19.jpg" alt="">
+            <img src="../assets/tenisice/19.jpg" alt="" loading="lazy">
           </div>
           <div class="div20">
-            <img src="../assets/tenisice/20.jpg" alt="">
+            <img src="../assets/tenisice/20.jpg" alt="" loading="lazy">
           </div>
           <div class="div21">
-            <img src="../assets/tenisice/21.jpg" alt="">
+            <img src="../assets/tenisice/21.jpg" alt="" loading="lazy">
           </div>
           <div class="div22">
-            <img src="../assets/tenisice/22.jpg" alt="">
+            <img src="../assets/tenisice/22.jpg" alt="" loading="lazy">
           </div>
           <div class="div23">
-            <img src="../assets/tenisice/23.jpg" alt="">
+            <img src="../assets/tenisice/23.jpg" alt="" loading="lazy">
           </div>
           <div class="div24">
-            <img src="../assets/tenisice/24.jpg" alt="">
+            <img src="../assets/tenisice/24.jpg" alt="" loading="lazy">
           </div>
           <div class="div25">
-            <img src="../assets/tenisice/25.jpg" alt="">
+            <img src="../assets/tenisice/25.jpg" alt="" loading="lazy">
           </div>
         </div>
       </div>
