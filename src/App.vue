@@ -1,5 +1,5 @@
 <script setup>
-  import home from "./assets/home.vue"
+  import home from "./components/home.vue"
 </script>
 
 <template>
@@ -8,6 +8,8 @@
 </div>
 </template>
 
-<style scoped>
-
+<style>
+*{
+  background-color: black;
+}
 </style>
