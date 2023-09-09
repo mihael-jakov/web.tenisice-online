@@ -20,9 +20,20 @@
 
 <script setup>
 
-</script>
+</script >
 
 <style scoped>
+@media only screen and (max-width: 480px) {
+  .button {
+  height: 6rem !important;
+  width: 6rem !important;
+}
+
+.background {
+  height: 4rem !important;
+  width: 4rem !important;
+}
+}
 /* page styling */
 section {
   max-width: 900px;
@@ -47,12 +58,12 @@ section p {
 .button {
   position: relative;
   background-color: white;
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  border-radius:0 0 0 50%;
   position: fixed;
-  top: 5vh; 
-  right: 5vw; 
+  top: 0; 
+  right: 0vw; 
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgb(192, 192, 192);
   text-align: center; 
@@ -60,12 +71,12 @@ section p {
 }
 
 .background {
-  height: 4rem;
-  width: 4rem;
-  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  border-radius:0 0 0 50%;
   position: fixed;
-  top: 5.5vh; 
-  right: 5.5vw; 
+  top: 0vh; 
+  right: 0vw; 
   background-image: radial-gradient(rgb(255, 255, 255), black);
   z-index: 1000;
 

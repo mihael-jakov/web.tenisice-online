@@ -1,32 +1,30 @@
 <template>
     <navigation_menu/>
-    <img src="../../assets/tenisice-logo.png" alt="" loading="lazy" class="w-[150px] h-[150px] mt-4 ml-8">
-    <div class="flex w-full justify-between">
-      <div class="w-[20%] flex justify-center">
-        <ul>
+    <img src="../../assets/tenisice-logo.png" alt="" loading="lazy" class="w-[150px] h-[150px] mt-4 ml-8 max-[680px]:m-0 max-[480px]:block max-[480px]:mx-auto max-[480px]:mb-8">
+    <div class="flex w-full justify-between max-[480px]:flex-col ">
+      <div class="w-[20%] flex justify-center pl-4 max-[480px]:w-[100%] max-[480px]:pb-8">
+        <ul class="max-[480px]:text-center">
           <li class="mb-4">CATEGORIES</li>
-          <li class="border-[0.5px] border-black w-[400%] opacity-[0.1]"></li>
+          <li class="border-[0.5px] border-black w-[200%] opacity-[0.1] max-[1450px]:w-[120%] max-[680px]:w-[100%]"></li>
           <li class="my-8">Air Jordan</li>
           <li class="my-8 mt-4">Yeezy</li>
           <li class="mb-8">Off White</li>
-          <li class="border-[0.5px] border-black w-[400%] opacity-[0.1]"></li>
+          <li class="border-[0.5px] border-black w-[200%] opacity-[0.1] max-[1450px]:w-[120%] max-[680px]:w-[100%]"></li>
         </ul>
       </div>
-      <div class="w-[80%] flex justify-center">
-         
-        <div class="dostupno_odmah" style="display: flex; flex-wrap: wrap; ">
+      <div class="w-[80%] flex pl-8 max-[480px]:w-[100%]">
+        <div class="" style="display: flex; flex-wrap: wrap; ">
             <div 
-                class=""
-                v-for="dostupnoodmah in dostupno_odmah.products"
+                class="basis-[20%] max-[1600px]:basis-[25%] max-[1600px]:basis-[25%] max-[1380px]:basis-[33%] max-[970px]:basis-[50%] max-[680px]:basis-[100%]"
+                v-for="dostupnoodmah in dostupno.products"
                 :key="dostupnoodmah.id"
-                style="flex-basis: 33.33333%"
             >
-                <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline">
-                <h2>Price: {{ dostupnoodmah.price }}€</h2>
-                <p>Name: {{ dostupnoodmah.name }}</p>
+                <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[250px] h-[250px] object-cover max-[970px]:w-[90%] max-[970px]:h-[400px] max-[680px]:h-[300px]">
+                <h2>{{ dostupnoodmah.price }}€</h2>
+                <p>{{ dostupnoodmah.name }}</p>
             </div>
+            
         </div>
-        
       </div>
     </div>
 </template>
@@ -40,9 +38,10 @@
 </script>
 
 <script setup>
+    import navigation_menu from "./navigation.vue"
     import { onMounted } from 'vue';
     import { dostupno_odmah } from '../../stores/dostupnoodmah'
-    import navigation_menu from "./navigation.vue"
+    
 
     const dostupno = dostupno_odmah()
 
