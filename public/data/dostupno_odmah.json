@@ -2,127 +2,127 @@
 	"products": [
 		{
 			"id": 0,
-			"image": "../../src/assets/tenisice/YEZZY/yeezy_crne/WhatsApp Image 2023-09-08 at 17.05.14 (1).jpeg",
+			"image": "../../assets/tenisice/YEZZY/yeezy_crne/WhatsApp Image 2023-09-08 at 17.05.14 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 1,
-			"image": "../../src/assets/tenisice/YEZZY/yeezy_crnobijele/WhatsApp Image 2023-09-08 at 14.21.55 (1).jpeg",
+			"image": "../../assets/tenisice/YEZZY/yeezy_crnobijele/WhatsApp Image 2023-09-08 at 14.21.55 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 2,
-			"image": "../../src/assets/tenisice/YEZZY/yeezy_slides/WhatsApp Image 2023-09-08 at 17.05.12.jpeg",
+			"image": "../../assets/tenisice/YEZZY/yeezy_slides/WhatsApp Image 2023-09-08 at 17.05.12.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 3,
-			"image": "../../src/assets/tenisice/YEZZY/yeezy_smede/WhatsApp Image 2023-09-08 at 14.21.56 (1).jpeg",
+			"image": "../../assets/tenisice/YEZZY/yeezy_smede/WhatsApp Image 2023-09-08 at 14.21.56 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 4,
-			"image": "../../src/assets/tenisice/YEZZY/yeezy_svjetlocrne/WhatsApp Image 2023-09-08 at 17.05.04.jpeg",
+			"image": "../../assets/tenisice/YEZZY/yeezy_svjetlocrne/WhatsApp Image 2023-09-08 at 17.05.04.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 5,
-			"image": "../../src/assets/tenisice/YEZZY/yeezycrnedruge/WhatsApp Image 2023-09-08 at 14.21.52.jpeg",
+			"image": "../../assets/tenisice/YEZZY/yeezycrnedruge/WhatsApp Image 2023-09-08 at 14.21.52.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 6,
-			"image": "../../src/assets/tenisice/YEZZY/yezzy_bijele_crveninatpis/WhatsApp Image 2023-09-08 at 14.21.54 (1).jpeg",
+			"image": "../../assets/tenisice/YEZZY/yezzy_bijele_crveninatpis/WhatsApp Image 2023-09-08 at 14.21.54 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 7,
-			"image": "../../src/assets/tenisice/YEZZY/yezzy_crnoplave/WhatsApp Image 2023-09-08 at 14.21.57 (1).jpeg",
+			"image": "../../assets/tenisice/YEZZY/yezzy_crnoplave/WhatsApp Image 2023-09-08 at 14.21.57 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 8,
-			"image": "../../src/assets/tenisice/YEZZY/yezzy_reflective/WhatsApp Image 2023-09-08 at 14.21.49 (1).jpeg",
+			"image": "../../assets/tenisice/YEZZY/yezzy_reflective/WhatsApp Image 2023-09-08 at 14.21.49 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 9,
-			"image": "../../src/assets/tenisice/YEZZY/yezzy_sivocrvene/WhatsApp Image 2023-09-08 at 14.21.56.jpeg",
+			"image": "../../assets/tenisice/YEZZY/yezzy_sivocrvene/WhatsApp Image 2023-09-08 at 14.21.56.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 10,
-			"image": "../../src/assets/tenisice/YEZZY/yezzy_sivonarandaste/WhatsApp Image 2023-09-08 at 14.21.47.jpeg",
+			"image": "../../assets/tenisice/YEZZY/yezzy_sivonarandaste/WhatsApp Image 2023-09-08 at 14.21.47.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 11,
-			"image": "../../src/assets/tenisice/YEZZY/yezzyzebra/WhatsApp Image 2023-09-08 at 14.21.49.jpeg",
+			"image": "../../assets/tenisice/YEZZY/yezzyzebra/WhatsApp Image 2023-09-08 at 14.21.49.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 12,
-			"image": "../../src/assets/tenisice/valentino/WhatsApp Image 2023-09-08 at 14.23.24 (1).jpeg",
+			"image": "../../assets/tenisice/valentino/WhatsApp Image 2023-09-08 at 14.23.24 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 13,
-			"image": "../../src/assets/tenisice/OffWhite/offwhite_bijelevezice/WhatsApp Image 2023-09-08 at 17.05.07 (1).jpeg",
+			"image": "../../assets/tenisice/OffWhite/offwhite_bijelevezice/WhatsApp Image 2023-09-08 at 17.05.07 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 14,
-			"image": "../../src/assets/tenisice/OffWhite/offwhite_plave_visoke/WhatsApp Image 2023-09-08 at 14.23.20 (1).jpeg",
+			"image": "../../assets/tenisice/OffWhite/offwhite_plave_visoke/WhatsApp Image 2023-09-08 at 14.23.20 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 15,
-			"image": "../../src/assets/tenisice/OffWhite/offwhite_plavevezice/WhatsApp Image 2023-09-08 at 14.23.18 (1).jpeg",
+			"image": "../../assets/tenisice/OffWhite/offwhite_plavevezice/WhatsApp Image 2023-09-08 at 14.23.18 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 16,
-			"image": "../../src/assets/tenisice/OffWhite/offwhite_plavobijele_visoke/WhatsApp Image 2023-09-08 at 17.05.04.jpeg",
+			"image": "../../assets/tenisice/OffWhite/offwhite_plavobijele_visoke/WhatsApp Image 2023-09-08 at 17.05.04.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 17,
-			"image": "../../src/assets/tenisice/OffWhite/offwhite_rozevezice/WhatsApp Image 2023-09-08 at 17.05.04 (1).jpeg",
+			"image": "../../assets/tenisice/OffWhite/offwhite_rozevezice/WhatsApp Image 2023-09-08 at 17.05.04 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 18,
-			"image": "../../src/assets/tenisice/OffWhite/offwhite_visokesanardzastim/WhatsApp Image 2023-09-08 at 14.23.25.jpeg",
+			"image": "../../assets/tenisice/OffWhite/offwhite_visokesanardzastim/WhatsApp Image 2023-09-08 at 14.23.25.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 19,
-			"image": "../../src/assets/tenisice/nikeice_zelene/WhatsApp Image 2023-09-08 at 17.05.08.jpeg",
+			"image": "../../assets/tenisice/nikeice_zelene/WhatsApp Image 2023-09-08 at 17.05.08.jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		},
 		{
 			"id": 20,
-			"image": "../../src/assets/tenisice/jordan_svjetloplave/WhatsApp Image 2023-09-08 at 17.05.13 (1).jpeg",
+			"image": "../../assets/tenisice/jordan_svjetloplave/WhatsApp Image 2023-09-08 at 17.05.13 (1).jpeg",
 			"price": "100",
 			"name": "Yeezy"
 		}
