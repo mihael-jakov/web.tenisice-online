@@ -1,3 +1,0 @@
-[functions]
-directory = “functions”
-included_files = [“../../public/dostupno_odmah.json”]
