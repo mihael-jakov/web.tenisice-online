@@ -12,19 +12,19 @@
           <li class="border-[0.5px] border-black w-[200%] opacity-[0.1] max-[1450px]:w-[120%] max-[680px]:w-[100%]"></li>
         </ul>
       </div>
-      <div class="w-[80%] flex pl-8 max-[480px]:w-[100%] max-[480px]:pl-0">
+      <div class="w-[80%] flex pl-8 max-[480px]:w-[100%] max-[480px]:pl-0 overflow-hidden">
         <div class="" style="display: flex; flex-wrap: wrap; ">
             <div 
-                class="flex text-center justify-center items-center flex-col basis-[20%] max-[1600px]:basis-[25%] max-[1600px]:basis-[25%] max-[1380px]:basis-[33%] max-[1000px]:basis-[50%] max-[680px]:basis-[100%] max-[480px]:basis-[50%]"
+                class="flex text-center justify-center items-center flex-col basis-[20%] max-[1600px]:basis-[25%] max-[1600px]:basis-[25%] max-[1380px]:basis-[33%] max-[1000px]:basis-[50%] max-[680px]:basis-[100%] max-[480px]:basis-[50%] max-[380px]:basis-[100%]"
                 v-for="dostupnoodmah in dostupno.products"
                 :key="dostupnoodmah.id"
             >
-                <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[250px] h-[250px] object-cover max-[1000px]:w-[90%] max-[1000px]:h-[400px] max-[480px]:h-[220px] max-[480px]:w-[180px] max-[380px]:h-[150px] max-[380px]:w-[130px]">
-                <div class="flex gap-4 items-center mt-2">
-                  <p clas="text-[18px] mb-4 font-semibold">{{ dostupnoodmah.price }}€</p>
-                  <p class="line-through text-[14px]">{{ dostupnoodmah.price_before }}€</p>
+                <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[250px] h-[250px] object-cover max-[1000px]:w-[90%] max-[1000px]:h-[400px] max-[480px]:h-[220px] max-[480px]:w-[180px] max-[380px]:h-[150px] max-[380px]:w-[130px] max-[380px]:w-[90%] max-[380px]:h-[350px]">
+                <p class="text-[15px] font-semibold mt-4">{{ dostupnoodmah.name }}</p>
+                <div class="flex gap-4 items-center text-[1.3rem] my-2">
+                  <p clas="">{{ dostupnoodmah.price }}€</p>
+                  <p class="text-red line-through text-[0.7rem] font-semibold ">{{ dostupnoodmah.price_before }}€</p>
                 </div>
-                <p class="text-[12px] mx-2 mb-4 font-semibold ">{{ dostupnoodmah.name }}</p>
             </div>
             
         </div>

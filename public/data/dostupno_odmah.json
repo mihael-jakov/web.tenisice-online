@@ -5,14 +5,14 @@
 			"image": "../tenisice/YEZZY/yeezy_crne/WhatsApp Image 2023-09-08 at 17.05.14 (1).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 Black Red"
+			"name": "Yeezy Boost Black Red"
 		},
 		{
 			"id": 1,
 			"image": "../tenisice/YEZZY/yeezy_crnobijele/WhatsApp Image 2023-09-08 at 14.21.55 (1).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 'Oreo'"
+			"name": "Yeezy Boost 'Oreo'"
 		},
 		{
 			"id": 2,
@@ -26,63 +26,63 @@
 			"image": "../tenisice/YEZZY/yeezy_smede/WhatsApp Image 2023-09-08 at 14.21.56 (1).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 Ash Stone"
+			"name": "Yeezy Boost Ash Stone"
 		},
 		{
 			"id": 4,
 			"image": "../tenisice/YEZZY/yeezy_svjetlocrne/WhatsApp Image 2023-09-08 at 17.05.04.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 Carbon"
+			"name": "Yeezy Boost Carbon"
 		},
 		{
 			"id": 5,
 			"image": "../tenisice/YEZZY/yeezycrnedruge/WhatsApp Image 2023-09-08 at 14.21.52.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 'Black'"
+			"name": "Yeezy Boost 'Black'"
 		},
 		{
 			"id": 6,
 			"image": "../tenisice/YEZZY/yezzy_bijele_crveninatpis/WhatsApp Image 2023-09-08 at 14.21.54 (1).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 'Blue Tint'"
+			"name": "Yeezy Boost 'Blue Tint'"
 		},
 		{
 			"id": 7,
 			"image": "../tenisice/YEZZY/yezzy_crnoplave/WhatsApp Image 2023-09-08 at 14.21.57 (1).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 Dazzling Blue"
+			"name": "Yeezy Boost Dazzling Blue"
 		},
 		{
 			"id": 8,
 			"image": "../tenisice/YEZZY/yezzy_reflective/WhatsApp Image 2023-09-08 at 14.21.49 (1).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 'Static'"
+			"name": "Yeezy Boost 'Static'"
 		},
 		{
 			"id": 9,
 			"image": "../tenisice/YEZZY/yezzy_sivocrvene/WhatsApp Image 2023-09-08 at 14.21.56.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 'Beluga 2.0'"
+			"name": "Yeezy Boost 'Beluga 2.0'"
 		},
 		{
 			"id": 10,
 			"image": "../tenisice/YEZZY/yezzy_sivonarandaste/WhatsApp Image 2023-09-08 at 14.21.47.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 'Beluga'"
+			"name": "Yeezy Boost 'Beluga'"
 		},
 		{
 			"id": 11,
 			"image": "../tenisice/YEZZY/yezzyzebra/WhatsApp Image 2023-09-08 at 14.21.49.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 350 V2 'Zebra'"
+			"name": "Yeezy Boost 'Zebra'"
 		},
 		{
 			"id": 12,
@@ -110,7 +110,7 @@
 			"image": "../tenisice/OffWhite/offwhite_plavevezice/WhatsApp Image 2023-09-08 at 14.23.18 (1).jpeg",
 			"price": "210",
 			"price_before":"320",
-			"name": "Nike Dunk Low x Off-White Lot 16 of 50"
+			"name": "Dunk Low x Off-White Lot 16/50"
 		},
 		{
 			"id": 16,
@@ -124,7 +124,7 @@
 			"image": "../tenisice/OffWhite/offwhite_rozevezice/WhatsApp Image 2023-09-08 at 17.05.04 (1).jpeg",
 			"price": "210",
 			"price_before":"320",
-			"name": "Nike Dunk Low Off-White Lot 28 of 50"
+			"name": "Nike Dunk Low Off-White Lot 28/50"
 		},
 		{
 			"id": 18,
