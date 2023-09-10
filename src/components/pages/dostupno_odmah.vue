@@ -20,8 +20,11 @@
                 :key="dostupnoodmah.id"
             >
                 <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[250px] h-[250px] object-cover max-[970px]:w-[90%] max-[970px]:h-[400px] max-[680px]:h-[300px]">
-                <h2>{{ dostupnoodmah.price }}€</h2>
-                <p>{{ dostupnoodmah.name }}</p>
+                <div class="flex gap-4 items-center mt-2">
+                  <p>{{ dostupnoodmah.price }}€</p>
+                  <p class="line-through text-[14px]">{{ dostupnoodmah.price_before }}€</p>
+                </div>
+                <p class="text-[20px] mb-4 font-semibold">{{ dostupnoodmah.name }}</p>
             </div>
             
         </div>
