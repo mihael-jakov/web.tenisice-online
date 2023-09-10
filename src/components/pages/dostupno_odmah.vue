@@ -12,19 +12,19 @@
           <li class="border-[0.5px] border-black w-[200%] opacity-[0.1] max-[1450px]:w-[120%] max-[680px]:w-[100%]"></li>
         </ul>
       </div>
-      <div class="w-[80%] flex pl-8 max-[480px]:w-[100%]">
+      <div class="w-[80%] flex pl-8 max-[480px]:w-[100%] max-[480px]:pl-0">
         <div class="" style="display: flex; flex-wrap: wrap; ">
             <div 
-                class="basis-[20%] max-[1600px]:basis-[25%] max-[1600px]:basis-[25%] max-[1380px]:basis-[33%] max-[970px]:basis-[50%] max-[680px]:basis-[100%]"
+                class="flex text-center justify-center items-center flex-col basis-[20%] max-[1600px]:basis-[25%] max-[1600px]:basis-[25%] max-[1380px]:basis-[33%] max-[1000px]:basis-[50%] max-[680px]:basis-[100%] max-[480px]:basis-[50%]"
                 v-for="dostupnoodmah in dostupno.products"
                 :key="dostupnoodmah.id"
             >
-                <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[250px] h-[250px] object-cover max-[970px]:w-[90%] max-[970px]:h-[400px] max-[680px]:h-[300px]">
+                <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[250px] h-[250px] object-cover max-[1000px]:w-[90%] max-[1000px]:h-[400px] max-[480px]:h-[220px] max-[480px]:w-[180px] max-[380px]:h-[150px] max-[380px]:w-[130px]">
                 <div class="flex gap-4 items-center mt-2">
-                  <p>{{ dostupnoodmah.price }}€</p>
+                  <p clas="text-[18px] mb-4 font-semibold">{{ dostupnoodmah.price }}€</p>
                   <p class="line-through text-[14px]">{{ dostupnoodmah.price_before }}€</p>
                 </div>
-                <p class="text-[20px] mb-4 font-semibold">{{ dostupnoodmah.name }}</p>
+                <p class="text-[14px] mb-4 font-semibold ">{{ dostupnoodmah.name }}</p>
             </div>
             
         </div>
