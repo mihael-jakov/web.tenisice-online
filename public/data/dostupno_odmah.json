@@ -88,7 +88,7 @@
 			"id": 12,
 			"image": "../tenisice/valentino/WhatsApp Image 2023-09-08 at 14.23.24 (1).jpeg",
 			"price": "230",
-			"price_before":"390",
+			"price_before":"130",
 			"name": "Valentino Garavani"
 		},
 		{
@@ -115,7 +115,7 @@
 		{
 			"id": 16,
 			"image": "../tenisice/OffWhite/offwhite_plavobijele_visoke/WhatsApp Image 2023-09-08 at 17.05.04.jpeg",
-			"price": "230",
+			"price": "210",
 			"price_before":"320",
 			"name": "Off-White's '3.0 Off Court Supreme' Blue"
 		},
@@ -136,14 +136,14 @@
 		{
 			"id": 19,
 			"image": "../tenisice/nikeice_zelene/WhatsApp Image 2023-09-08 at 17.05.08.jpeg",
-			"price": "190",
+			"price": "130",
 			"price_before":"270",
 			"name": "Nike Dunk Low Pro SB 'Legion Pine'"
 		},
 		{
 			"id": 20,
 			"image": "../tenisice/jordan_svjetloplave/WhatsApp Image 2023-09-08 at 17.05.13 (1).jpeg",
-			"price": "220",
+			"price": "180",
 			"price_before":"310",
 			"name": "Air Jordan 1 Hype Royal"
 		}
