@@ -24,7 +24,7 @@
                   <p clas="text-[18px] mb-4 font-semibold">{{ dostupnoodmah.price }}€</p>
                   <p class="line-through text-[14px]">{{ dostupnoodmah.price_before }}€</p>
                 </div>
-                <p class="text-[14px] mb-4 font-semibold ">{{ dostupnoodmah.name }}</p>
+                <p class="text-[12px] mx-2 mb-4 font-semibold ">{{ dostupnoodmah.name }}</p>
             </div>
             
         </div>
