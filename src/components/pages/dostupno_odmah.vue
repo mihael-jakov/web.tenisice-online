@@ -105,6 +105,7 @@ export default {
 }
 .ostalo > li:nth-of-type(13),.ostalo > li:nth-of-type(20){
   display:block;
+  flex-basis: 50%;
 }
 .active{
  border: 3px solid green;
