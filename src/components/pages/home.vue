@@ -43,7 +43,7 @@
             <ul class="min-[971px]:hidden flex items-center justify-between w-[1440px] max-[1460px]:w-full max-[1460px]:px-4 max-[1250px]:gap-[1em] max-[970px]:flex-col">
                 <div class=" flex flex-row gap-[1em] max-[350px]:flex-col">
                     <li style="">
-                    <img src="../../../dist/tenisice/jordan_svjetloplave/WhatsApp Image 2023-09-08 at 17.05.13 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
                     <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Jordan</p>
                     <div class="flex justify-start items-center gap-[1em]">
                         <p class="line-through text-[#888888] text-[13px]">235,00€</p>
@@ -51,7 +51,7 @@
                     </div>
                 </li>
                 <li style="">
-                    <img src="../../../dist/tenisice/nikeice_zelene/WhatsApp Image 2023-09-08 at 17.05.08.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <img src="../../assets/nikeice_zelene/photo1.jpeg" class="w-[300px] h-[450px] object-cover rounded-lg">
                     <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Zelene</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
                         <p class="line-through text-[#888888] text-[13px]">235,00€</p>
@@ -61,7 +61,7 @@
             </div>
                 <div class="flex flex-row gap-[1em] max-[350px]:flex-col">
                     <li style="">
-                    <img src="../../../dist/tenisice/OffWhite/offwhite_plave_visoke/WhatsApp Image 2023-09-08 at 14.23.20 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
                     <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off White Plave Visoke</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
                         <p class="line-through text-[#888888] text-[13px]">235,00€</p>
@@ -69,7 +69,7 @@
                     </div>
                 </li>
                 <li style="">
-                    <img src="../../../dist/tenisice/valentino/WhatsApp Image 2023-09-08 at 14.23.24 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
                     <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Valentino</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
                         <p class="line-through text-[#888888] text-[13px]">235,00€</p>
@@ -82,7 +82,7 @@
 
             <ul class="flex max-[970px]:hidden items-center justify-between w-[1440px] max-[1460px]:w-full max-[1460px]:px-4 max-[1250px]:gap-[1em] max-[970px]:flex-col ">
                     <li style="">
-                    <img src="../../../dist/tenisice/jordan_svjetloplave/WhatsApp Image 2023-09-08 at 17.05.13 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
                     <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Jordan</p>
                     <div class="flex justify-start items-center gap-[1em]">
                         <p class="line-through text-[#888888] text-[13px]">235,00€</p>
@@ -90,7 +90,7 @@
                     </div>
                 </li>
                 <li style="">
-                    <img src="../../../dist/tenisice/nikeice_zelene/WhatsApp Image 2023-09-08 at 17.05.08.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <img src="../../assets/nikeice_zelene/photo1.jpeg" class="w-[300px] h-[450px] object-cover rounded-lg">
                     <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Zelene</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
                         <p class="line-through text-[#888888] text-[13px]">235,00€</p>
@@ -98,7 +98,7 @@
                     </div>
                 </li>
                     <li style="">
-                    <img src="../../../dist/tenisice/OffWhite/offwhite_plave_visoke/WhatsApp Image 2023-09-08 at 14.23.20 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
                     <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off White Plave Visoke</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
                         <p class="line-through text-[#888888] text-[13px]">235,00€</p>
@@ -106,7 +106,7 @@
                     </div>
                 </li>
                 <li style="">
-                    <img src="../../../dist/tenisice/valentino/WhatsApp Image 2023-09-08 at 14.23.24 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
                     <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Valentino</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
                         <p class="line-through text-[#888888] text-[13px]">235,00€</p>
