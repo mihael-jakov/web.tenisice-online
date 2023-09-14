@@ -1,10 +1,8 @@
 <template>
     <navigation_menu/>
-    <img src="../../assets/tenisice-logo.png" alt="" loading="lazy" class="w-[150px] h-[150px] mt-4 ml-8 max-[680px]:m-0 max-[480px]:block max-[480px]:mx-auto max-[480px]:mb-8">
     <div class="flex w-full flex-col justify-center max-[480px]:flex-col !overflow-x-hidden">
       <div class="w-[100%] text-center flex justify-center pl-4 max-[480px]:w-[100%] max-[480px]:pb-8">
         <ul class="max-[480px]:text-center w-full mb-24" >
-          <li class="mb-4" >CATEGORIES</li>
           <div class="flex justify-center items-center max-[329px]:flex-col">
             <ul class="m-4">
               <li class="mb-[3rem] max-[480px]:mr-0 mr-[4rem] cursor-pointer w-[150px] h-[150px] p-8" @click="air_jordan_active()" :class="{'active':air_jordan}" >
@@ -63,15 +61,43 @@ export default {
   methods: {
     air_jordan_active() {
       this.air_jordan = !this.air_jordan;
+      if (this.yeezy = true) {
+        this.yeezy = false
+      }if(this.offwhite = true){
+        this.offwhite = false
+      }if(this.ostalo = true){
+        this.ostalo = false
+      }
     },
     yeezy_active() {
       this.yeezy = !this.yeezy;
+      if (this.air_jordan = true) {
+        this.air_jordan = false
+      }if(this.offwhite = true){
+        this.offwhite = false
+      }if(this.ostalo = true){
+        this.ostalo = false
+      }
     },
     offwhite_active() {
       this.offwhite = !this.offwhite;
+      if (this.air_jordan = true) {
+        this.air_jordan = false
+      }if(this.yeezy = true){
+        this.yeezy = false
+      }if(this.ostalo = true){
+        this.ostalo = false
+      }
     },
     ostalo_active() {
       this.ostalo = !this.ostalo;
+      if (this.air_jordan = true) {
+        this.air_jordan = false
+      }if(this.yeezy = true){
+        this.yeezy = false
+      }if( this.offwhite = true){
+         this.offwhite = false
+      }
     },
   },
 };
@@ -92,6 +118,7 @@ export default {
 <style scoped>
 .tenisice_visibility > li{
   display:none;
+
 }
 .air_jordan > li:nth-of-type(21){
   display:block;
@@ -104,7 +131,7 @@ export default {
   display:block;
 }
 .ostalo > li:nth-of-type(13),.ostalo > li:nth-of-type(20){
-  display:block;
+  display:initial;
   flex-basis: 50%;
 }
 .active{
