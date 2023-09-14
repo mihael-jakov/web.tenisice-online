@@ -13,14 +13,14 @@
             </div>
         </div>
     </div>
-    <div class="h-[40vh] w-full flex justify-center">
-        <ul class="flex w-[1440px] justify-between items-center max-[970px]:w-full h-[full] max-[970px]:flex-row max-[970px]:flex-wrap max-[970px]:justify-center  max-[970px]:gap-[2em] my-16">
+    <div class="h-[50vh] w-full flex justify-center">
+        <ul class="flex mt-8 w-[1440px] justify-between items-center max-[970px]:w-full h-[full] max-[970px]:flex-row max-[970px]:flex-wrap max-[970px]:justify-center  max-[970px]:gap-[2em]">
             <li class="w-[300px] h-auto flex justify-center items-center flex-col text-center" >
                 <img src="../../assets/deliverytruck_home.svg" alt="" class="w-[80px] h-[80px]">
                 <p class="my-[15px] text-[#181818] text-[16px] font-semibold uppercase leading-[1.25em]">Shipping</p>
                 <p class="text-[#666666] text-[14px] leading-[1.7em] mx-2">Osiguravamo sigurnu dostavu, vrijeme čekanja je 20-25 dana!</p>
             </li>
-            <li class="w-[300px] h-auto flex justify-center items-center flex-col text-center mx-8 max-[969px]:hidden max-[632px]:flex my-16">
+            <li class="w-[300px] h-auto flex justify-center items-center flex-col text-center mx-8 max-[969px]:hidden max-[632px]:flex">
                 <img src="../../assets/authenthic_home.svg" alt="">
                 <p class="my-[15px] text-[#181818] text-[16px] font-semibold uppercase leading-[1.25em]">AUTHENTIC</p>
                 <p class="text-[#666666] text-[14px] leading-[1.7em] mx-2">Naše cipele su autentične, kupcima pružajući povjerenje u kvalitetu. Pažljivo biramo proizvode od pouzdanih izvora. Kupujte s povjerenjem, znajući da su cipele koje prodajemo pravi proizvodi..</p>
@@ -37,6 +37,85 @@
             </li>
         </ul>
     </div>
+    <div class="text-start mt-8 w-full flex items-center flex-col max-[970px]:mt-32 max-[630px]:mt-[25em]">
+            <p class="text-[#181818] text-[26px] font-bold uppercase leading-[24px] my-8 text-center">DOSTUPNO ODMAH</p>
+            <p class="text-[#888888] text-[14px] mb-8 text-center">(povoljno)</p>
+            <ul class="min-[971px]:hidden flex items-center justify-between w-[1440px] max-[1460px]:w-full max-[1460px]:px-4 max-[1250px]:gap-[1em] max-[970px]:flex-col">
+                <div class=" flex flex-row gap-[1em] max-[350px]:flex-col">
+                    <li style="">
+                    <img src="../../../dist/tenisice/jordan_svjetloplave/WhatsApp Image 2023-09-08 at 17.05.13 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Jordan</p>
+                    <div class="flex justify-start items-center gap-[1em]">
+                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem]">170,00€</p>
+                    </div>
+                </li>
+                <li style="">
+                    <img src="../../../dist/tenisice/nikeice_zelene/WhatsApp Image 2023-09-08 at 17.05.08.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Zelene</p>
+                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
+                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem]">170,00€</p>
+                    </div>
+                </li>
+            </div>
+                <div class="flex flex-row gap-[1em] max-[350px]:flex-col">
+                    <li style="">
+                    <img src="../../../dist/tenisice/OffWhite/offwhite_plave_visoke/WhatsApp Image 2023-09-08 at 14.23.20 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off White Plave Visoke</p>
+                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
+                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem]">170,00€</p>
+                    </div>
+                </li>
+                <li style="">
+                    <img src="../../../dist/tenisice/valentino/WhatsApp Image 2023-09-08 at 14.23.24 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Valentino</p>
+                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
+                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem]">170,00€</p>
+                    </div>
+                </li>
+            </div>
+            </ul>
+
+
+            <ul class="flex max-[970px]:hidden items-center justify-between w-[1440px] max-[1460px]:w-full max-[1460px]:px-4 max-[1250px]:gap-[1em] max-[970px]:flex-col ">
+                    <li style="">
+                    <img src="../../../dist/tenisice/jordan_svjetloplave/WhatsApp Image 2023-09-08 at 17.05.13 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Jordan</p>
+                    <div class="flex justify-start items-center gap-[1em]">
+                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem]">170,00€</p>
+                    </div>
+                </li>
+                <li style="">
+                    <img src="../../../dist/tenisice/nikeice_zelene/WhatsApp Image 2023-09-08 at 17.05.08.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Zelene</p>
+                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
+                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem]">170,00€</p>
+                    </div>
+                </li>
+                    <li style="">
+                    <img src="../../../dist/tenisice/OffWhite/offwhite_plave_visoke/WhatsApp Image 2023-09-08 at 14.23.20 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off White Plave Visoke</p>
+                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
+                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem]">170,00€</p>
+                    </div>
+                </li>
+                <li style="">
+                    <img src="../../../dist/tenisice/valentino/WhatsApp Image 2023-09-08 at 14.23.24 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
+                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Valentino</p>
+                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
+                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem]">170,00€</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <router-link to="/store" class="flex justify-center"><button class="border-2 mt-8 py-[10px] px-[45px] bg-black text-[14px] text-[white] font-medium tracking-[0.2rem] uppercase">Store</button></router-link>
 </template>
 
 <script setup>
@@ -44,6 +123,7 @@ import navigation from "../pages/navigation.vue"
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
   font-family:inherit;
 }
