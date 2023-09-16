@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-    <div class="h-[50vh] w-full flex justify-center">
+    <div class="h-[40vh] w-full flex justify-center max-[970px]:h-[60vh]">
         <ul class="flex mt-8 w-[1440px] justify-between items-center max-[970px]:w-full h-[full] max-[970px]:flex-row max-[970px]:flex-wrap max-[970px]:justify-center  max-[970px]:gap-[2em]">
             <li class="w-[300px] h-auto flex justify-center items-center flex-col text-center" >
                 <img src="../../assets/deliverytruck_home.svg" alt="" class="w-[80px] h-[80px]">
@@ -37,43 +37,43 @@
             </li>
         </ul>
     </div>
-    <div class="text-start mt-8 w-full flex items-center flex-col max-[970px]:mt-32 max-[630px]:mt-[25em]">
-            <p class="text-[#181818] text-[26px] font-bold uppercase leading-[24px] my-8 text-center">DOSTUPNO ODMAH</p>
-            <p class="text-[#888888] text-[14px] mb-8 text-center">(povoljno)</p>
+    <div class="text-start bg-[#131313] mt-8 w-full flex items-center flex-col max-[970px]:mt-32 max-[630px]:mt-[25em]">
+            <p class="text-[white] text-[26px] font-bold uppercase leading-[24px] my-4 text-center mt-8">DOSTUPNO ODMAH</p>
+            <p class="text-[white] text-[14px] mb-8 text-center">(povoljno)</p>
             <ul class="min-[971px]:hidden flex items-center justify-between w-[1440px] max-[1460px]:w-full max-[1460px]:px-4 max-[1250px]:gap-[1em] max-[970px]:flex-col">
                 <div class=" flex flex-row gap-[1em] max-[350px]:flex-col">
-                    <li style="">
+                    <li>
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
-                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Jordan</p>
+                    <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white]" style="font-family: 'Roboto', sans-serif;">Nike Air Jordan</p>
                     <div class="flex justify-start items-center gap-[1em]">
-                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
-                        <p class="text-[1.4rem]">170,00€</p>
+                        <p class="line-through text-[white] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem] text-[white]">170,00€</p>
                     </div>
                 </li>
-                <li style="">
+                <li>
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" class="w-[300px] h-[450px] object-cover rounded-lg">
-                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Zelene</p>
-                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
-                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
-                        <p class="text-[1.4rem]">170,00€</p>
+                    <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white]" style="font-family: 'Roboto', sans-serif;">Nike Zelene</p>
+                    <div class="flex justify-start items-center gap-[1em]">
+                        <p class="line-through text-[white] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem] text-[white]">170,00€</p>
                     </div>
                 </li>
             </div>
                 <div class="flex flex-row gap-[1em] max-[350px]:flex-col">
-                    <li style="">
+                    <li>
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
-                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off White Plave Visoke</p>
-                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
-                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
-                        <p class="text-[1.4rem]">170,00€</p>
+                    <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white]" style="font-family: 'Roboto', sans-serif;">Off White Plave Visoke</p>
+                    <div class="flex justify-start items-center gap-[1em]">
+                        <p class="line-through text-[white] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem] text-[white]">170,00€</p>
                     </div>
                 </li>
-                <li style="">
+                <li>
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
-                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Valentino</p>
-                    <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
-                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
-                        <p class="text-[1.4rem]">170,00€</p>
+                    <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white]" style="font-family: 'Roboto', sans-serif;">Valentino</p>
+                    <div class="flex justify-start items-center gap-[1em]">
+                        <p class="line-through text-[white] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem] text-[white]">170,00€</p>
                     </div>
                 </li>
             </div>
@@ -81,41 +81,76 @@
 
 
             <ul class="flex max-[970px]:hidden items-center justify-between w-[1440px] max-[1460px]:w-full max-[1460px]:px-4 max-[1250px]:gap-[1em] max-[970px]:flex-col ">
-                    <li style="">
+                    <li>
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
-                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Jordan</p>
+                    <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white]" style="font-family: 'Roboto', sans-serif;">Nike Air Jordan</p>
                     <div class="flex justify-start items-center gap-[1em]">
-                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
-                        <p class="text-[1.4rem]">170,00€</p>
+                        <p class="line-through text-[white] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem] text-[white]">170,00€</p>
                     </div>
                 </li>
-                <li style="">
+                <li>
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" class="w-[300px] h-[450px] object-cover rounded-lg">
-                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Zelene</p>
+                    <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white]" style="font-family: 'Roboto', sans-serif;">Nike Zelene</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
-                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
-                        <p class="text-[1.4rem]">170,00€</p>
+                        <p class="line-through text-[white] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem] text-[white]">170,00€</p>
                     </div>
                 </li>
-                    <li style="">
+                    <li>
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
-                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off White Plave Visoke</p>
+                    <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white]" style="font-family: 'Roboto', sans-serif;">Off White Plave Visoke</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
-                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
-                        <p class="text-[1.4rem]">170,00€</p>
+                        <p class="line-through text-[white] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem] text-[white]">170,00€</p>
                     </div>
                 </li>
-                <li style="">
+                <li>
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg">
-                    <p class="text-[1.4rem] my-2 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Valentino</p>
+                    <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white]" style="font-family: 'Roboto', sans-serif;">Valentino</p>
                     <div class="flex justify-start items-center gap-[1em] max-[350px]:flex-col">
-                        <p class="line-through text-[#888888] text-[13px]">235,00€</p>
-                        <p class="text-[1.4rem]">170,00€</p>
+                        <p class="line-through text-[white] text-[13px]">235,00€</p>
+                        <p class="text-[1.4rem] text-[white]">170,00€</p>
                     </div>
                 </li>
             </ul>
+            <router-link to="/store"><button class="border-2 mb-16 mt-12 py-[7px] px-[35px] !bg-white text-[14px] text-[#242424] font-bold uppercase hover_herobutton">Store</button></router-link>
         </div>
-        <router-link to="/store" class="flex justify-center"><button class="border-2 mt-8 py-[10px] px-[45px] bg-black text-[14px] text-[white] font-medium tracking-[0.2rem] uppercase">Store</button></router-link>
+       <!-- 
+        <div class="mt-[10em] w-full flex items-center flex-col overflow-hidden">
+            <p class="text-[#181818] text-[26px] font-bold uppercase leading-[24px] my-4 text-center uppercase">Collections</p>
+        <section>
+            <div class="">
+                <div class="border-2">
+                    <img src="../../assets/jordan.png" alt="" class="w-[100%] h-[30rem] object-cover">
+                    <p class="text-[1.4rem] my-2 leading-[1.5] my-8 ml-8" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Jordan</p>
+                </div>
+                <div class="border-2">
+                    <img src="../../assets/nike_sb.png" alt="" class="w-[100%] h-[30rem] object-fit">
+                    <p class="text-[1.4rem] my-2 leading-[1.5] my-8 ml-8" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Dunk</p>
+                </div>
+                <div class="border-2">
+                    <img src="../../assets/offwhite.png" alt="" class="w-[full] h-[30rem] object-cover">
+                    <p class="text-[1.4rem] my-8 ml-8 leading-[1.5]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off-White</p>
+                </div>
+            </div>
+            <div class="">
+                <div class="border-2">
+                    <img src="../../assets/nike_air_max.png" alt="" class="w-[full] h-[30rem] object-cover">
+                    <p class="text-[1.4rem] my-2 leading-[1.5] my-8 ml-8" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Max</p>
+                </div>
+                <div class="border-2">
+                    <img src="../../assets/yeezy.jpg" alt="" class="w-[full] h-[30rem] object-cover">
+                    <p class="text-[1.4rem] my-2 leading-[1.5] my-8 ml-8" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Yeezy</p>
+                </div>
+                <div class="border-2">
+                    <img src="../../assets/ostalo.png" alt="" class="w-[full] h-[30rem] object-cover">
+                    <p class="text-[1.4rem] my-2 leading-[1.5] my-8 ml-8" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Ostalo</p>
+                </div>
+            </div>
+            </section>
+        </div>
+        -->
 </template>
 
 <script setup>
@@ -144,3 +179,4 @@ import navigation from "../pages/navigation.vue"
 box-shadow: -43px 37px 79px 5px rgba(0,0,0,0.58);
 }
 </style>
+
