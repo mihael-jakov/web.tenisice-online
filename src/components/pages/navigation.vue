@@ -12,8 +12,8 @@
  
   <div class="fixed bg-[#131313]  z-[999] w-full text-[14px] uppercase tracking-[0.2rem] font-bold min-[750px]:hidden">
     <ul class="flex w-full items-center bg-[#131313]  justify-between h-[100px] absolute z-[999]">
-      <li><img src="../../assets/tenisice-logo.png" alt="" class="w-[100px] h-[100px] ml-8"></li>
-    <li @click="mobile_show()" class=" mr-8">
+      <li><img src="../../assets/tenisice-logo.png" alt="" class="w-[100px] h-[100px] ml-4"></li>
+    <li @click="mobile_show()" class=" mr-4">
       <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
   <path
         class="line top"
