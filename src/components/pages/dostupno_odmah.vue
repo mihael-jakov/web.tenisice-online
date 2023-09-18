@@ -1,29 +1,26 @@
 <template>
     <navigation_menu/>
-    <div class="flex w-full flex-col justify-center max-[480px]:flex-col !overflow-x-hidden">
-      <div class="w-[100%] text-center flex justify-center pl-4 max-[480px]:w-[100%] max-[480px]:pb-8">
-        <ul class="max-[480px]:text-center w-full mb-24" >
-          <div class="flex justify-center items-center max-[329px]:flex-col">
-            <ul class="m-4">
-              <li class="mb-[3rem] max-[480px]:mr-0 mr-[4rem] cursor-pointer w-[150px] h-[150px] p-8" @click="air_jordan_active()" :class="{'active':air_jordan}" >
-                <img src="../../assets/jordan.png" alt="">
-              </li>
-              <li class=" cursor-pointer w-[150px] h-[120px] p-8" @click="yeezy_active()" :class="{'active':yeezy}">
-                <img src="../../assets/yeezy.jpg" alt="">
-              </li>
-            </ul>
-            <ul class="m-4">
-              <li class="mb-[3rem] ml-[4rem]  max-[480px]:ml-0 cursor-pointer w-[150px] h-[150px] p-8" @click="offwhite_active()" :class="{'active':offwhite}">
-                <img src="../../assets/offwhite.png" alt="">
-              </li>
-              <li class=" ml-[4rem] cursor-pointer w-[150px] h-[120px] p-8 max-[480px]:ml-0" @click="ostalo_active()" :class="{'active':ostalo}">
-                <img src="../../assets/ostalo.png" alt="">
-              </li>
-            </ul>
-          </div>
-          
-        </ul>
-      </div>
+    <h1 class="text-[2rem] text-white uppercase font-bold py-32 pt-[5em] text-center bg-[#131313]">TENISICE</h1>
+    <div class="flex w-full flex-col items-start justify-center max-[480px]:flex-col !overflow-x-hidden bg-[#131313]">
+      <ul class="flex text-white justify-center gap-[5em] w-[100%]">
+        <li class="flex items-center gap-[0.5em]" @click="modul_click_fun()">
+          <span>Model</span><span>&#8595;</span> 
+        </li>
+        <li class="w-[150px] h-[200px] bg-white absolute ml-[0em] mt-[2em] rounded-[15px] text-black flex flex-col justify-between items-start pl-4 py-4 border-2 border-[black]" v-if="modul_click">
+          <button class="" @click="air_jordan_active">AIR JORDAN</button>
+          <button @click="yeezy_active">YEEZY</button>
+          <button @click="offwhite_active">OFF WHITE</button>
+          <button @click="ostalo_active">OSTALO</button>
+        </li>
+        <!-- 
+        <li class="flex items-center gap-[0.5em]">
+          <span>Dostupnost</span><span>&#8595;</span> 
+        </li>
+        <li class="flex items-center gap-[0.5em]">
+          <span>Sale</span><span>&#8595;</span> 
+        </li>
+        -->
+      </ul>
       <div class="w-[full] flex pl-8 max-[480px]:w-[100%] max-[480px]:pl-0 overflow-hidden">
         <ul class="tenisice_visibility "  :class="{'air_jordan':air_jordan, 'yeezy':yeezy, 'offwhite':offwhite, 'ostalo':ostalo}" style="display: flex; flex-wrap: wrap; ">
             <li 
@@ -31,20 +28,22 @@
                 v-for="dostupnoodmah in dostupno.products"
                 :key="dostupnoodmah.id"
             >
-            <div class="flex text-center justify-center items-center flex-col">
-              <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[350px] h-[400px] object-cover max-[1105px]:w-[90%] max-[1105px]:h-[400px] max-[480px]:h-[220px] max-[480px]:w-[180px] max-[380px]:h-[250px] max-[380px]:w-[130px]">
-                <p class="text-[15px] font-semibold mt-4 text-[18px] max-[380px]:mb-2 max-[380px]:max-w-[80%] ">{{ dostupnoodmah.name }}</p>
-                <div class="flex gap-4 items-center text-[1.3rem] my-2 max-[380px]:mb-4">
-                  <p clas="">{{ dostupnoodmah.price }}€</p>
-                  <p class="text-red line-through text-[0.7rem] font-semibold ">{{ dostupnoodmah.price_before }}€</p>
+            <a href="https://www.instagram.com/tenisiceonline_/" target="_blank">
+              <div class="flex text-start justify-start items-start flex-col py-8  max-[480px]:px-2">
+              <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[350px] h-[400px] object-cover max-[1105px]:w-[90%] max-[1105px]:h-[400px] max-[480px]:h-[220px] max-[480px]:w-[180px] max-[380px]:h-[250px] max-[380px]:w-[full]">
+                <p class="text-[1.2rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[480px]:w-full">{{ dostupnoodmah.name }}</p>
+                <div class="flex gap-4 items-center my-2 max-[380px]:mb-4 text-start ">
+                  <p class="line-through text-[white] text-[13px]">{{ dostupnoodmah.price_before }}€</p>
+                  <p class="text-[1.4rem] text-[white]">{{ dostupnoodmah.price }}€</p>
                 </div>
               </div>
-                
+            </a> 
             </li>
             
           </ul>
       </div>
     </div>
+    <footer_page/>
 </template>
 
 
@@ -52,15 +51,24 @@
 export default {
   data() {
     return {
-      air_jordan: false,
-      yeezy: false,
-      offwhite: false,
-      ostalo: false,
+      air_jordan: true,
+      yeezy: true,
+      offwhite: true,
+      ostalo: true,
+
+      modul_click:false,
     };
   },
   methods: {
+    modul_click_fun(){
+      this.modul_click = !this.modul_click
+    },
     air_jordan_active() {
-      this.air_jordan = !this.air_jordan;
+      if (this.air_jordan = true) {
+        this.air_jordan = true
+      }else{
+        this.air_jordan = !this.air_jordan;
+      } 
       if (this.yeezy = true) {
         this.yeezy = false
       }if(this.offwhite = true){
@@ -70,7 +78,12 @@ export default {
       }
     },
     yeezy_active() {
-      this.yeezy = !this.yeezy;
+      if (this.yeezy = true) {
+        this.yeezy = true
+      }else{
+        this.yeezy = !this.yeezy;
+      } 
+      
       if (this.air_jordan = true) {
         this.air_jordan = false
       }if(this.offwhite = true){
@@ -80,7 +93,11 @@ export default {
       }
     },
     offwhite_active() {
-      this.offwhite = !this.offwhite;
+      if (this.offwhite = true) {
+        this.offwhite = true
+      }else{
+        this.offwhite = !this.offwhite;
+      } 
       if (this.air_jordan = true) {
         this.air_jordan = false
       }if(this.yeezy = true){
@@ -90,7 +107,11 @@ export default {
       }
     },
     ostalo_active() {
-      this.ostalo = !this.ostalo;
+      if (this.ostalo = true) {
+        this.ostalo = true
+      }else{
+        this.ostalo = !this.ostalo;
+      } 
       if (this.air_jordan = true) {
         this.air_jordan = false
       }if(this.yeezy = true){
@@ -104,6 +125,7 @@ export default {
 </script>
 <script setup>
     import navigation_menu from "./navigation.vue"
+    import footer_page from "../pages/footer.vue"
     import { onMounted } from 'vue';
     import { dostupno_odmah } from '../../stores/dostupnoodmah'
 
@@ -131,8 +153,8 @@ export default {
   display:block;
 }
 .ostalo > li:nth-of-type(13),.ostalo > li:nth-of-type(20){
-  display:initial;
-  flex-basis: 50%;
+  display:block;
+  flex-basis:auto;
 }
 .active{
  border: 3px solid green;

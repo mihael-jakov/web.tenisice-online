@@ -1,11 +1,11 @@
 <template>
-    <div class="w-full h-[30em] bg-[#131313] flex justify-center flex-col items-center max-[1430px]:h-[60em] max-[850px]:h-[80em] max-[350px]:h-[90em] !overflow-x-hidden">
+    <div class="w-full h-[30em] bg-[#131313] flex justify-center flex-col items-center max-[1430px]:h-[60em] max-[850px]:h-[80em] max-[350px]:h-[90em] !overflow-x-hidden border-t border-[#757575] border-opacity-[0.1] ">
         <div class="w-[1440px] flex justify-center gap-[10em] items-center max-[1510px]:w-full max-[1510px]:px-2 max-[850px]:flex-col max-[850px]:gap-8 max-[850px]:text-center ">
             <ul class="flex flex-row max-[1430px]:flex-col gap-[10em] max-[850px]:gap-8 ">
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center ">
                 <img src="../../assets/tenisice-logo.png" alt="" class="w-[100px] h-[100px]">
                 <p class="mt-[15px] mb-[35px]">Najbolje cijene, za najbolju kvalitetu</p>
-                <div class="flex flex-row items-center gap-[0.5em] mb-4"><img src="../../assets/footer_phone.svg" alt="" class="w-[25px] h-[25px]"><span class="max-[360px]:flex max-[360px]:flex-col"> <span>(+385) 91 729 2812</span><span class="max-[360px]:hidden mx-2">|</span><span>(+385) 91 729 2812</span> </span></div>
+                <div class="flex flex-row items-center gap-[0.5em] mb-4"><img src="../../assets/footer_phone.svg" alt="" class="w-[25px] h-[25px]"><span class="max-[360px]:flex max-[360px]:flex-col"> <a  href="#">(+385) 91 729 2812</a><span class="max-[360px]:hidden mx-2">|</span><a href="#">(+385) 99 360 0200</a> </span></div>
                 <div class="flex flex-row items-center gap-[0.5em]"><img src="../../assets/footer_mail.svg" alt="" class="w-[25px] h-[25px]"><span>jakov.sijarto2@gmail.com</span></div>
                 </li>
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center">
