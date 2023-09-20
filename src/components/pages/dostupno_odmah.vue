@@ -7,12 +7,12 @@
           <span>Model</span><span>&#8595;</span> 
         </li>
         <li class="w-[150px] h-[200px] bg-white absolute ml-[0em] mt-[2em] rounded-[15px] text-black flex flex-col justify-between items-start pl-4 py-4 border-2 border-[black]" v-if="modul_click">
-          <button class="" @click="air_jordan_active">AIR JORDAN</button>
           <button @click="yeezy_active">YEEZY</button>
           <button @click="offwhite_active">OFF WHITE</button>
           <button @click="ostalo_active">OSTALO</button>
         </li>
         <!-- 
+        <button class="" @click="air_jordan_active">AIR JORDAN</button>
         <li class="flex items-center gap-[0.5em]">
           <span>Dostupnost</span><span>&#8595;</span> 
         </li>
@@ -142,19 +142,14 @@ export default {
   display:none;
 
 }
-.air_jordan > li:nth-of-type(21){
-  display:block;
-  flex-basis: 100%;
-}
-.yeezy > li:nth-of-type(1),.yeezy > li:nth-of-type(2),.yeezy > li:nth-of-type(3),.yeezy > li:nth-of-type(4),.yeezy > li:nth-of-type(5),.yeezy > li:nth-of-type(6),.yeezy > li:nth-of-type(7),.yeezy > li:nth-of-type(8),.yeezy > li:nth-of-type(9),.yeezy > li:nth-of-type(10),.yeezy > li:nth-of-type(11),.yeezy > li:nth-of-type(12){
+.yeezy > li:nth-of-type(1),.yeezy > li:nth-of-type(2),.yeezy > li:nth-of-type(3),.yeezy > li:nth-of-type(4),.yeezy > li:nth-of-type(5),.yeezy > li:nth-of-type(6),.yeezy > li:nth-of-type(7),.yeezy > li:nth-of-type(8),.yeezy > li:nth-of-type(9),.yeezy > li:nth-of-type(10),.yeezy > li:nth-of-type(11),.yeezy > li:nth-of-type(12),.yeezy > li:nth-of-type(22){
   display:block;
 }
-.offwhite > li:nth-of-type(14), .offwhite > li:nth-of-type(15), .offwhite > li:nth-of-type(16), .offwhite > li:nth-of-type(17), .offwhite > li:nth-of-type(18), .offwhite > li:nth-of-type(19){
+.offwhite > li:nth-of-type(14), .offwhite > li:nth-of-type(15), .offwhite > li:nth-of-type(16), .offwhite > li:nth-of-type(17), .offwhite > li:nth-of-type(18), .offwhite > li:nth-of-type(19), .offwhite > li:nth-of-type(25){
   display:block;
 }
-.ostalo > li:nth-of-type(13),.ostalo > li:nth-of-type(20){
+.ostalo > li:nth-of-type(13),.ostalo > li:nth-of-type(20),.ostalo > li:nth-of-type(21),.ostalo > li:nth-of-type(23),.ostalo > li:nth-of-type(24),.ostalo > li:nth-of-type(26){
   display:block;
-  flex-basis:auto;
 }
 .active{
  border: 3px solid green;

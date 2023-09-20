@@ -149,38 +149,38 @@
 		},
 		{
 			"id": 21,
-			"image": "",
+			"image": "../tenisice/YEZZY/Yeezy_True_Form/Yeezy_Boost_350_V2_True_Form.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Air Jordan 1 Hype Royal"
+			"name": "Yeezy Boost 350 V2 'True Form'"
 		},
 		{
 			"id": 22,
-			"image": "",
+			"image": "../tenisice/Alexander McQueen/Alexander McQueen White & Red/Alexander McQueen White & Red.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Air Jordan 1 Hype Royal"
+			"name": "Alexander McQueen White & Red"
 		},
 		{
 			"id": 23,
-			"image": "",
+			"image": "../tenisice/Nike Dunk Low/nike dunk low bijele/Nike Dunk Low Off-White Lot 3650.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Air Jordan 1 Hype Royal"
+			"name": "Nike Dunk Low Off-White Lot 36/50"
 		},
 		{
 			"id": 24,
-			"image": "",
+			"image": "../tenisice/OffWhite/Off-White Air Force 1 MCA Blue/Off-White Air Force 1 MCA Blue.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Air Jordan 1 Hype Royal"
+			"name": "Off-White Air Force 1 MCA Blue"
 		},
 		{
 			"id": 25,
-			"image": "",
+			"image": "../tenisice/Balenciaga/Balenciaga Triple S White/Balenciaga Triple S White.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Air Jordan 1 Hype Royal"
+			"name": "Balenciaga Triple S White"
 		}
 	]
 }
