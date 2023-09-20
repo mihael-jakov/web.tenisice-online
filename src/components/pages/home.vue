@@ -39,7 +39,7 @@
     </div>
     <div class="text-start bg-[#131313] mt-8 w-full flex items-center flex-col max-[970px]:mt-32 max-[630px]:mt-[25em] max-[520px]:text-center">
             <p class="leading-[-2px] text-[2rem] text-white uppercase font-bold mt-16">DOSTUPNO ODMAH</p>
-            <p class="text-[white] text-[20px] mb-8 text-center mb-20">(povoljno)</p>
+            <p class="text-[white] text-[20px] mb-8 text-center mb-20">(povoljno).</p>
             <div class="flex justify-center items-center w-[1440px] max-[1460px]:w-full max-[1460px]:px-4 max-[1250px]:gap-[1em] max-[520px]:flex max-[520px]:flex-col ">
                 <ul class="flex flex-row mx-2 gap-[1em] max-[1040px]:block max-[1040px]:m-0">
                 <li >
