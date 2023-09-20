@@ -5,22 +5,22 @@
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center ">
                 <img src="../../assets/tenisice-logo.png" alt="" class="w-[100px] h-[100px]">
                 <p class="mt-[15px] mb-[35px]">Najbolje cijene, za najbolju kvalitetu</p>
-                <div class="flex flex-row items-center gap-[0.5em] mb-4"><img src="../../assets/footer_phone.svg" alt="" class="w-[25px] h-[25px]"><span class="max-[360px]:flex max-[360px]:flex-col"> <a  href="#">(+385) 91 729 2812</a><span class="max-[360px]:hidden mx-2">|</span><a href="#">(+385) 99 360 0200</a> </span></div>
-                <div class="flex flex-row items-center gap-[0.5em]"><img src="../../assets/footer_mail.svg" alt="" class="w-[25px] h-[25px]"><span>jakov.sijarto2@gmail.com</span></div>
+                <div class="flex flex-row items-center gap-[0.5em] mb-4"><img src="../../assets/footer_phone.svg" alt="" class="w-[25px] h-[25px]"><span class="max-[360px]:flex max-[360px]:flex-col"> <a  href="tel:+385917292812">(+385) 91 729 2812</a><span class="max-[360px]:hidden mx-2">|</span><a href="tel:+385993600200">(+385) 99 360 0200</a> </span></div>
+                <div class="flex flex-row items-center gap-[0.5em]"><img src="../../assets/footer_mail.svg" alt="" class="w-[25px] h-[25px]"><a href="mailto:jakov.sijarto2@gmail.com">jakov.sijarto2@gmail.com</a></div>
                 </li>
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center">
                 <p class="mb-[30px] !text-white text-[16px] font-bold uppercase leading-[24px] big-text">information</p>
-                <p class="my-[16px] text-[14px]">Privacy Policy</p>
-                <p class="my-[16px] text-[14px]">Refund Policy</p>
-                <p class="my-[16px] text-[14px]">Terms Of Service</p>
+                <p class="my-[16px] text-[14px]"><router-link to="/">Privacy Policy</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/">Refund Policy</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/">Terms Of Service</router-link></p>
                 </li>
             </ul>
             <ul class="flex flex-row max-[1430px]:flex-col gap-[10em] max-[850px]:gap-8">
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center">
                 <p class="mb-[30px] !text-white text-[16px] font-bold uppercase leading-[24px] big-text">contact</p>
-                <p class="my-[16px] text-[14px]">About Us</p>
-                <p class="my-[16px] text-[14px]">Contact Us</p>
-                <p class="my-[16px] text-[14px]">Our Store</p>
+                <p class="my-[16px] text-[14px]"><router-link to="about">About Us</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/contact">Contact Us</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/store">Our Store</router-link></p>
                 </li>
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-between max-[850px]:items-center">
                 <p class=" !text-white text-[16px] font-bold uppercase leading-[24px] big-text">pretplati se na newsletter</p>
@@ -29,11 +29,10 @@
                     <input type="text" class="pl-[15px] h-[50px] bg-[#282828] text-[#555555]" placeholder="Enter Your Mail">
                     <button class="px-[18px] h-[100%] border-2 max-[360px]:w-[100%] max-[360px]:flex max-[360px]:justify-center max-[360px]:items-center max-[360px]:h-[50%] max-[360px]:mt-4"><img src="../../assets/footer_button_send.svg" alt="" class="w-[25px] h-[25px]"></button>
                 </form>
-                    <ul class="flex flex-row mt-[20px] gap-[2em]">
-                        <li class="border-2 p-[10px]"><img src="../../assets/footer_instagram.svg" alt="" class="w-[30px] h-[30px]" ></li>
-                        <li class="border-2 p-[10px]"><img src="../../assets/footer_tiktok.svg" alt="" class="w-[30px] h-[30px]" ></li>
-                        <li class="border-2 p-[10px]"><img src="../../assets/footer_facebook.svg" alt="" class="w-[30px] h-[30px]" ></li>
-                    </ul>
+                    <div class="flex flex-row mt-[20px] gap-[2em]">
+                        <a href="https://www.instagram.com/tenisiceonline_/" target="_blank" class="border-2 p-[10px]"><img src="../../assets/footer_instagram.svg" alt="" class="w-[30px] h-[30px]" ></a>
+                        <a href="https://www.tiktok.com/@tenisice_online" target="_blank" class="border-2 p-[10px]"><img src="../../assets/footer_tiktok.svg" alt="" class="w-[30px] h-[30px]" ></a>
+                    </div>
                 </li>
             </ul>
             
