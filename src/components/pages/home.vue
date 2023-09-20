@@ -51,7 +51,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="../../assets/offwhite_bijelevezice/WhatsApp Image 2023-09-08 at 17.05.07 (1).jpeg" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
+                    <img src="../../assets/offwhite_bijelevezice/photo1.jpeg" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
                     <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[520px]:w-full" style="font-family: 'Roboto', sans-serif;">Nike Off-White Dunk Low 'Lot 1'</p>
                     <div class="flex justify-start items-center gap-[1em] max-[520px]:justify-center mb-8">
                         <p class="line-through text-[white] text-[13px]">235,00€</p>
@@ -61,7 +61,7 @@
             </ul>
             <ul class="flex flex-row mx-2 gap-[1em] max-[1040px]:block max-[1040px]:m-0">
                 <li>
-                    <img src="../../assets/valentino/WhatsApp Image 2023-09-08 at 14.23.24 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
+                    <img src="../../assets/valentino/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
                     <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[520px]:w-full" style="font-family: 'Roboto', sans-serif;">Valentino Garavani (povoljno!)</p>
                     <div class="flex justify-start items-center gap-[1em] max-[520px]:justify-center mb-8">
                         <p class="line-through text-[white] text-[13px]">235,00€</p>
@@ -69,7 +69,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="../../assets/yeezy_crne/WhatsApp Image 2023-09-08 at 17.05.14 (1).jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
+                    <img src="../../assets/yeezy_crne/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
                     <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[520px]:w-full" style="font-family: 'Roboto', sans-serif;">Yeezy Boost Black Red</p>
                     <div class="flex justify-start items-center gap-[1em] max-[520px]:justify-center mb-8">
                         <p class="line-through text-[white] text-[13px]">235,00€</p>
