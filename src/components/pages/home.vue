@@ -45,7 +45,7 @@
                 <li >
                     <img src="../../assets/nikeice_zelene/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg  max-[520px]:w-[500px]">
                     <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[520px]:w-full" style="font-family: 'Roboto', sans-serif;">Nike Dunk Low 'Legion Pine'</p>
-                    <div class="w-min text-white px-2 py-1 border border-white my-2">42</div>
+                    <!--<div class="w-min text-white px-2 py-1 border border-white my-2">42</div>-->
                     <div class="flex justify-start items-center gap-[1em] max-[520px]:justify-center mb-8">
                         <p class="line-through text-[white] text-[13px]">235,00€</p>
                         <p class="text-[1.4rem] text-[white]">130,00€</p>
@@ -54,7 +54,7 @@
                 <li>
                     <img src="../../assets/offwhite_bijelevezice/photo1.jpeg" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
                     <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[520px]:w-full" style="font-family: 'Roboto', sans-serif;">Nike Off-White Dunk Low 'Lot 1'</p>
-                    <div class="w-min text-white px-2 py-1 border border-white my-2">42</div>
+                    <!--<div class="w-min text-white px-2 py-1 border border-white my-2">42</div>-->
                     <div class="flex justify-start items-center gap-[1em] max-[520px]:justify-center mb-8">
                         <p class="line-through text-[white] text-[13px]">235,00€</p>
                         <p class="text-[1.4rem] text-[white]">170,00€</p>
@@ -65,7 +65,7 @@
                 <li>
                     <img src="../../assets/valentino/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
                     <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[520px]:w-full" style="font-family: 'Roboto', sans-serif;">Valentino Garavani (povoljno!)</p>
-                    <div class="w-min text-white px-2 py-1 border border-white my-2">42</div>
+                    <!--<div class="w-min text-white px-2 py-1 border border-white my-2">42</div>-->
                     <div class="flex justify-start items-center gap-[1em] max-[520px]:justify-center mb-8">
                         <p class="line-through text-[white] text-[13px]">235,00€</p>
                         <p class="text-[1.4rem] text-[white]">130,00€</p>
@@ -74,7 +74,7 @@
                 <li>
                     <img src="../../assets/yeezy_crne/photo1.jpeg" alt="" class="w-[300px] h-[450px] object-cover rounded-lg max-[520px]:w-[500px]">
                     <p class="text-[1.4rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[520px]:w-full" style="font-family: 'Roboto', sans-serif;">Yeezy Boost Black Red</p>
-                    <div class="w-min text-white px-2 py-1 border border-white my-2">42</div>
+                    <!--<div class="w-min text-white px-2 py-1 border border-white my-2">42</div>-->
                     <div class="flex justify-start items-center gap-[1em] max-[520px]:justify-center mb-8">
                         <p class="line-through text-[white] text-[13px]">235,00€</p>
                         <p class="text-[1.4rem] text-[white]">150,00€</p>

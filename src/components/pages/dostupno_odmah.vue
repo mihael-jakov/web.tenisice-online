@@ -28,11 +28,14 @@
                 v-for="dostupnoodmah in dostupno.products"
                 :key="dostupnoodmah.id"
             >
-            <a href="https://www.instagram.com/tenisiceonline_/" target="_blank">
+            <a href="https://wa.me/0993600200" target="_blank">
               <div class="flex text-start justify-start items-start flex-col py-8  max-[480px]:px-2">
-              <img :src="dostupnoodmah.image" alt="" loading="lazy" class="inline w-[350px] h-[400px] object-cover max-[1105px]:w-[90%] max-[1105px]:h-[400px] max-[480px]:h-[220px] max-[480px]:w-[180px] max-[380px]:h-[250px] max-[380px]:w-[full]">
+                <div class="w-full max-[400px]:w-auto images">
+                  <img :src="dostupnoodmah.image2" alt="" loading="lazy" class="image1 inline w-[350px] h-[400px] object-cover max-[1105px]:w-[90%] max-[1105px]:hidden">
+                  <img :src="dostupnoodmah.image" alt="" loading="lazy" class="image2 inline w-[350px] h-[400px] object-cover max-[1105px]:w-[90%] max-[1105px]:h-[400px] max-[480px]:h-[220px] max-[480px]:w-[180px] max-[380px]:h-[250px] max-[380px]:w-[full]">
+                </div>
                 <p class="text-[1.2rem] my-2 leading-[1.5] font-semibold text-[white] mt-4 w-[80%] max-[480px]:w-full">{{ dostupnoodmah.name }}</p>
-                <div class="w-min text-white px-2 py-1 border border-white my-2">42</div>
+                <!--<div class="w-min text-white px-2 py-1 border border-white my-2">42</div>-->
                 <div class="flex gap-4 items-center my-2 max-[380px]:mb-4 text-start ">
                   <p class="line-through text-[white] text-[13px]">{{ dostupnoodmah.price_before }}€</p>
                   <p class="text-[1.4rem] text-[white]">{{ dostupnoodmah.price }}€</p>
@@ -139,6 +142,15 @@ export default {
 </script>
 
 <style scoped>
+.images .image1 {
+    position: absolute;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .images:hover .image1{
+    opacity: 1;
+  }
 .tenisice_visibility > li{
   display:none;
 
