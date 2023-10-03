@@ -5,6 +5,7 @@ import NotFound from "../components/notfound.vue"
 import about_us from "../components/pages/aboutus.vue"
 import contact from "../components/pages/contact.vue"
 import store from "../components/pages/dostupno_odmah.vue"
+import productdetails from "../components/pages/productdetail.vue"
 
 const routes = [
     {
@@ -22,6 +23,11 @@ const routes = [
     {
         path:'/store',
         component: store
+    },
+    {
+        path:'/:id',
+        name:'productsdetail',
+        component:productdetails
     },
     {
         path: '/:pathMatch(.*)*',

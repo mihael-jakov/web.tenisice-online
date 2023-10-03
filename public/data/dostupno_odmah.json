@@ -6,7 +6,8 @@
 			"image2": "../tenisice/YEZZY/yeezy_crne/WhatsApp Image 2023-09-08 at 17.05.14 (2).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost Black Red"
+			"name": "Yeezy Boost Black Red",
+			"name_site": "YeezyBoostBlackRed"
 		},
 		{
 			"id": 1,
@@ -14,7 +15,8 @@
 			"image2": "../tenisice/YEZZY/yeezy_crnobijele/WhatsApp Image 2023-09-08 at 14.21.55.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 'Oreo'"
+			"name": "Yeezy Boost 'Oreo'",
+			"name_site": "YeezyBoost'Oreo'"
 		},
 		{
 			"id": 2,
@@ -22,7 +24,8 @@
 			"image2": "../tenisice/YEZZY/yeezy_slides/WhatsApp Image 2023-09-08 at 17.05.13.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Slide Bone"
+			"name": "Yeezy Slide Bone",
+			"name_site": "YeezySlideBone"
 		},
 		{
 			"id": 3,
@@ -30,7 +33,8 @@
 			"image2": "../tenisice/YEZZY/yeezy_smede/WhatsApp Image 2023-09-08 at 14.21.56 (2).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost Ash Stone"
+			"name": "Yeezy Boost Ash Stone",
+			"name_site": "YeezyBoostAshStone"
 		},
 		{
 			"id": 4,
@@ -38,7 +42,8 @@
 			"image2": "../tenisice/YEZZY/yeezy_svjetlocrne/WhatsApp Image 2023-09-08 at 17.05.05.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost Carbon"
+			"name": "Yeezy Boost Carbon",
+			"name_site": "YeezyBoostCarbon"
 		},
 		{
 			"id": 5,
@@ -46,7 +51,8 @@
 			"image2": "../tenisice/YEZZY/yeezycrnedruge/WhatsApp Image 2023-09-08 at 14.21.53.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 'Black'"
+			"name": "Yeezy Boost 'Black'",
+			"name_site": "YeezyBoost'Black'"
 		},
 		{
 			"id": 6,
@@ -54,7 +60,8 @@
 			"image2": "../tenisice/YEZZY/yezzy_bijele_crveninatpis/WhatsApp Image 2023-09-08 at 14.21.54.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 'Blue Tint'"
+			"name": "Yeezy Boost 'Blue Tint'",
+			"name_site": "YeezyBoost'BlueTint'"
 		},
 		{
 			"id": 7,
@@ -62,7 +69,8 @@
 			"image2": "../tenisice/YEZZY/yezzy_crnoplave/WhatsApp Image 2023-09-08 at 14.21.57 (2).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost Dazzling Blue"
+			"name": "Yeezy Boost Dazzling Blue",
+			"name_site": "YeezyBoostDazzlingBlue"
 		},
 		{
 			"id": 8,
@@ -70,7 +78,8 @@
 			"image2": "../tenisice/YEZZY/yezzy_reflective/WhatsApp Image 2023-09-08 at 14.21.49 (2).jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 'Static'"
+			"name": "Yeezy Boost 'Static'",
+			"name_site": "YeezyBoost'Static'"
 		},
 		{
 			"id": 9,
@@ -78,7 +87,8 @@
 			"image2": "../tenisice/YEZZY/yezzy_sivocrvene/WhatsApp Image 2023-09-08 at 14.21.57.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 'Beluga 2.0'"
+			"name": "Yeezy Boost 'Beluga 2.0'",
+			"name_site": "YeezyBoost'Beluga2.0'"
 		},
 		{
 			"id": 10,
@@ -86,7 +96,8 @@
 			"image2": "../tenisice/YEZZY/yezzy_sivonarandaste/WhatsApp Image 2023-09-08 at 14.21.48.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 'Beluga'"
+			"name": "Yeezy Boost 'Beluga'",
+			"name_site": "YeezyBoost'Beluga'"
 		},
 		{
 			"id": 11,
@@ -94,7 +105,8 @@
 			"image2": "../tenisice/YEZZY/yezzyzebra/WhatsApp Image 2023-09-08 at 14.21.50.jpeg",
 			"price": "150",
 			"price_before":"230",
-			"name": "Yeezy Boost 'Zebra'"
+			"name": "Yeezy Boost 'Zebra'",
+			"name_site": "YeezyBoost'Zebra'"
 		},
 		{
 			"id": 12,
@@ -102,7 +114,8 @@
 			"image2": "../tenisice/valentino/WhatsApp Image 2023-09-08 at 14.23.24.jpeg",
 			"price": "130",
 			"price_before":"230",
-			"name": "Valentino Garavani"
+			"name": "Valentino Garavani",
+			"name_site": "ValentinoGaravani"
 		},
 		{
 			"id": 13,
@@ -110,7 +123,8 @@
 			"image2": "../tenisice/OffWhite/offwhite_bijelevezice/WhatsApp Image 2023-09-08 at 17.05.12 (2).jpeg",
 			"price": "210",
 			"price_before":"320",
-			"name": "Nike Off-White Dunk Low 'Lot 1'"
+			"name": "Nike Off-White Dunk Low 'Lot 1'",
+			"name_site": "Nike-OffWhiteDunkLow'Lot1'"
 		},
 		{
 			"id": 14,
@@ -118,7 +132,8 @@
 			"image2": "../tenisice/OffWhite/offwhite_plave_visoke/WhatsApp Image 2023-09-08 at 14.23.20.jpeg",
 			"price": "210",
 			"price_before":"320",
-			"name": "Louis Vuitton x Nike Air Force 1s"
+			"name": "Louis Vuitton x Nike Air Force 1s",
+			"name_site": "LouisVuittonXNikeAirForce1s"
 		},
 		{
 			"id": 15,
@@ -126,7 +141,8 @@
 			"image2": "../tenisice/OffWhite/offwhite_plavevezice/WhatsApp Image 2023-09-08 at 14.23.18.jpeg",
 			"price": "210",
 			"price_before":"320",
-			"name": "Dunk Low x Off-White Lot 16/50"
+			"name": "Dunk Low x Off-White Lot 16/50",
+			"name_site": "DunkLowXOffWhiteLot16/50"
 		},
 		{
 			"id": 16,
@@ -134,7 +150,8 @@
 			"image2": "../tenisice/OffWhite/offwhite_plavobijele_visoke/WhatsApp Image 2023-09-08 at 17.05.16.jpeg",
 			"price": "210",
 			"price_before":"320",
-			"name": "Off-White's '3.0 Off Court Supreme' Blue"
+			"name": "Off-White's '3.0 Off Court Supreme' Blue",
+			"name_site": "Off-White'3.0-Off-CourtSupreme'Blue"
 		},
 		{
 			"id": 17,
@@ -142,7 +159,8 @@
 			"image2": "../tenisice/OffWhite/offwhite_rozevezice/WhatsApp Image 2023-09-08 at 17.05.06.jpeg",
 			"price": "210",
 			"price_before":"320",
-			"name": "Nike Dunk Low Off-White Lot 28/50"
+			"name": "Nike Dunk Low Off-White Lot 28/50",
+			"name_site": "NikeDunkLowOff-WhiteLot28/50"
 		},
 		{
 			"id": 18,
@@ -150,7 +168,8 @@
 			"image2": "../tenisice/OffWhite/offwhite_visokesanardzastim/WhatsApp Image 2023-09-08 at 14.23.26.jpeg",
 			"price": "210",
 			"price_before":"320",
-			"name": "Off-White Off-Court 3.0 High Top Sneaker"
+			"name": "Off-White Off-Court 3.0 High Top Sneaker",
+			"name_site": "Off-WhiteOff-Court3.0HighTopSneaker"
 		},
 		{
 			"id": 19,
@@ -158,7 +177,8 @@
 			"image2": "../tenisice/Nike Dunk Low/nike dunk low zelene/WhatsApp Image 2023-09-08 at 17.05.09.jpeg",
 			"price": "130",
 			"price_before":"270",
-			"name": "Nike Dunk Low Pro SB 'Legion Pine'"
+			"name": "Nike Dunk Low Pro SB 'Legion Pine'",
+			"name_site": "NikeDunkLowProSB'LegionPine'"
 		},
 		{
 			"id": 20,
@@ -166,7 +186,8 @@
 			"image2": "../tenisice/jordan_svjetloplave/WhatsApp Image 2023-09-08 at 17.05.14.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Air Jordan 1 Hype Royal"
+			"name": "Air Jordan 1 Hype Royal",
+			"name_site": "AirJordan1HypeRoyal"
 		},
 		{
 			"id": 21,
@@ -174,7 +195,8 @@
 			"image2": "../tenisice/YEZZY/Yeezy_True_Form/WhatsApp Image 2023-09-17 at 22.25.22.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Yeezy Boost 350 V2 'True Form'"
+			"name": "Yeezy Boost 350 V2 'True Form'",
+			"name_site": "YeezyBoost350V2'TrueForm'"
 		},
 		{
 			"id": 22,
@@ -182,7 +204,8 @@
 			"image2": "../tenisice/Alexander McQueen/Alexander McQueen White & Red/WhatsApp Image 2023-09-17 at 22.25.29.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Alexander McQueen White & Red"
+			"name": "Alexander McQueen White & Red",
+			"name_site": "AlexanderMcQueenWhite&Red"
 		},
 		{
 			"id": 23,
@@ -190,7 +213,8 @@
 			"image2": "../tenisice/Nike Dunk Low/nike dunk low bijele/WhatsApp Image 2023-09-17 at 22.25.26.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Nike Dunk Low Off-White Lot 36/50"
+			"name": "Nike Dunk Low Off-White Lot 36/50",
+			"name_site": "NikeDunkLowOff-WhiteLot36/50"
 		},
 		{
 			"id": 24,
@@ -198,7 +222,8 @@
 			"image2": "../tenisice/OffWhite/Off-White Air Force 1 MCA Blue/WhatsApp Image 2023-09-16 at 07.13.00.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Off-White Air Force 1 MCA Blue"
+			"name": "Off-White Air Force 1 MCA Blue",
+			"name_site": "Off-WhiteAirForce1MCABlue"
 		},
 		{
 			"id": 25,
@@ -206,7 +231,8 @@
 			"image2": "../tenisice/Balenciaga/Balenciaga Triple S White/WhatsApp Image 2023-09-17 at 22.25.28.jpeg",
 			"price": "180",
 			"price_before":"310",
-			"name": "Balenciaga Triple S White"
+			"name": "Balenciaga Triple S White",
+			"name_site": "BalenciagaTripleSWhite"
 		}
 	]
 }

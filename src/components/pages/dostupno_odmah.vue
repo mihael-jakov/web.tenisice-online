@@ -22,14 +22,15 @@
         -->
       </ul>
       <div class="w-[full] flex pl-8 max-[480px]:w-[100%] max-[480px]:pl-0 overflow-hidden">
-        <ul class="tenisice_visibility "  :class="{'air_jordan':air_jordan, 'yeezy':yeezy, 'offwhite':offwhite, 'ostalo':ostalo}" style="display: flex; flex-wrap: wrap; ">
+        <ul class="tenisice_visibility"  :class="{'air_jordan':air_jordan, 'yeezy':yeezy, 'offwhite':offwhite, 'ostalo':ostalo}" style="display: flex; flex-wrap: wrap; ">
             <li 
-                class="flex-col basis-[20%] max-[1880px]:basis-[25%] max-[1440px]:basis-[33%] max-[1105px]:basis-[50%] max-[480px]:basis-[50%]"
+                class="flex-col basis-[20%] max-[1880px]:basis-[25%] max-[1440px]:basis-[33%] max-[1105px]:basis-[50%] max-[480px]:basis-[50%] "
                 v-for="dostupnoodmah in dostupno.products"
                 :key="dostupnoodmah.id"
+                @click="gotoproductpage(dostupnoodmah.id)"
             >
-            <a href="https://wa.me/0993600200" target="_blank">
-              <div class="flex text-start justify-start items-start flex-col py-8  max-[480px]:px-2">
+           
+              <div class="flex text-start justify-start items-start flex-col py-8  max-[480px]:px-2 cursor-pointer">
                 <div class="w-full max-[400px]:w-auto images">
                   <img :src="dostupnoodmah.image2" alt="" loading="lazy" class="image1 inline w-[350px] h-[400px] object-cover max-[1105px]:w-[90%] max-[1105px]:hidden">
                   <img :src="dostupnoodmah.image" alt="" loading="lazy" class="image2 inline w-[350px] h-[400px] object-cover max-[1105px]:w-[90%] max-[1105px]:h-[400px] max-[480px]:h-[220px] max-[480px]:w-[180px] max-[380px]:h-[250px] max-[380px]:w-[full]">
@@ -41,7 +42,6 @@
                   <p class="text-[1.4rem] text-[white]">{{ dostupnoodmah.price }}€</p>
                 </div>
               </div>
-            </a> 
             </li>
             
           </ul>
@@ -132,12 +132,18 @@ export default {
     import footer_page from "../pages/footer.vue"
     import { onMounted } from 'vue';
     import { dostupno_odmah } from '../../stores/dostupnoodmah'
+    import { useRouter } from "vue-router"
 
     const dostupno = dostupno_odmah()
 
+    const router = useRouter()
+
+    const gotoproductpage = (id) => {
+      router.push({ name: 'productsdetail', params: { id }})
+    }
+
     onMounted(() =>{
-        console.log("MOUNTED");
-        dostupno.fetchProductsFromDB()
+       dostupno.fetchProductsFromDB()
     })
 </script>
 

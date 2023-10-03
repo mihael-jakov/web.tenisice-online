@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-[30em] bg-[#131313] flex justify-center flex-col items-center max-[1430px]:h-[60em] max-[850px]:h-[80em] max-[350px]:h-[90em] !overflow-x-hidden border-t border-[#757575] border-opacity-[0.1] ">
+    <div class="w-full bottom-0 h-[30em] bg-[#131313] flex justify-center flex-col items-center max-[1430px]:h-[60em] max-[850px]:h-[80em] max-[350px]:h-[90em] !overflow-x-hidden border-t border-[#757575] border-opacity-[0.1] ">
         <div class="w-[1440px] flex justify-center gap-[10em] items-center max-[1510px]:w-full max-[1510px]:px-2 max-[850px]:flex-col max-[850px]:gap-8 max-[850px]:text-center ">
             <ul class="flex flex-row max-[1430px]:flex-col gap-[10em] max-[850px]:gap-8 ">
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center ">
