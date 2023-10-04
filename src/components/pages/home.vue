@@ -88,44 +88,44 @@
 
         <div class="my-[5em] w-full flex justify-center overflow-hidden flex-col">
             <p class="leading-[-2px] text-[2rem] text-black uppercase font-bold my-16 text-center">Collections</p>
-        <section class="w-full flex justify-center flex-col items-center">
-            <div class="flex flex-row w-[1440px] justify-between max-[1485px]:w-auto max-[880px]:gap-[1em] max-[880px]:mt-8 max-[630px]:flex-col max-[630px]:mx-4">
+        <section class="w-full flex justify-center flex-col items-center max-[720px]:px-6">
+            <div class="flex flex-row w-[1440px] justify-between max-[1485px]:w-auto max-[880px]:gap-[1em] max-[880px]:mt-8 max-[520px]:flex-col max-[520px]:w-[90%] ">
             <router-link to="/store" class="hover_card">
-                <div class="border-2 max-[880px]:p-8 !cursor-pointer">
-                    <img src="../../assets/jordan.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[400px] max-[630px]:h-full">
-                    <p class="text-[1.6rem] my-2 leading-[1.5] !cursor-pointer my-8 ml-8 max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Jordan <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
+                <div class="border-2 max-[880px]:p-8 !cursor-pointer max-[630px]:w-[150px] max-[520px]:flex max-[520px]:w-full  max-[380px]:flex-col max-[380px]:items-center">
+                    <img src="../../assets/jordan.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[100px] max-[630px]:h-[100px] ">
+                    <p class="text-[1.6rem] my-2 leading-[1.5] !cursor-pointer my-8 ml-8 max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em] max-[520px]:mt-0 max-[520px]:ml-8  max-[380px]:mt-8  max-[380px]:ml-0" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Jordan <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
                 </div>
             </router-link>
             <router-link to="/store" class="hover_card">
-                <div class="border-2 max-[880px]:p-8 !cursor-pointer">
-                    <img src="../../assets/nike_sb.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-fit max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[400px] max-[630px]:h-full">
-                    <p class="text-[1.6rem] my-2 leading-[1.5] !cursor-pointer my-8 ml-8 max-[880px]:ml-0 max-[880px]:mb-0 max-[880px]:text-center flex flex-row items-center max-[880px]:justify-center gap-[0.5em]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Dunk <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
+                <div class="border-2 max-[880px]:p-8 !cursor-pointer max-[630px]:w-[150px] max-[520px]:flex max-[520px]:w-full max-[380px]:flex-col max-[380px]:items-center">
+                    <img src="../../assets/nike_sb.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-fit max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[100px] max-[630px]:h-[100px]">
+                    <p class="text-[1.6rem] my-2 leading-[1.5] !cursor-pointer my-8 ml-8 max-[880px]:ml-0 max-[880px]:mb-0 max-[880px]:text-center flex flex-row items-center max-[880px]:justify-center gap-[0.5em] max-[520px]:mt-0 max-[520px]:ml-8   max-[380px]:mt-8  max-[380px]:ml-0" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Dunk <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
                 </div>
             </router-link>
             <router-link to="/store" class="hover_card">
-                <div class="border-2 max-[880px]:p-8 !cursor-pointer">
-                    <img src="../../assets/offwhite.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[400px] max-[630px]:h-full">
-                    <p class="text-[1.6rem] my-8 ml-8 leading-[1.5] !cursor-pointer max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off-White <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
+                <div class="border-2 max-[880px]:p-8 !cursor-pointer max-[630px]:w-[150px] max-[520px]:flex max-[520px]:w-full max-[380px]:flex-col max-[380px]:items-center">
+                    <img src="../../assets/offwhite.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[100px] max-[630px]:h-[100px]">
+                    <p class="text-[1.6rem] my-8 ml-8 leading-[1.5] !cursor-pointer max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em] max-[520px]:mt-0 max-[520px]:ml-8   max-[380px]:mt-8  max-[380px]:ml-0" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Off-White <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
                 </div>
             </router-link>
             </div>
-            <div class="flex flex-row w-[1440px] justify-between max-[1485px]:w-auto max-[880px]:gap-[1em] max-[880px]:mt-8 max-[630px]:flex-col max-[630px]:mx-4">
+            <div class="flex flex-row w-[1440px] justify-between max-[1485px]:w-auto max-[880px]:gap-[1em] max-[880px]:mt-8 max-[520px]:flex-col max-[520px]:w-[90%]">
             <router-link to="/store" class="hover_card">
-                <div class="border-2 max-[880px]:p-8 !cursor-pointer">
-                    <img src="../../assets/nike_air_max.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[400px] max-[630px]:h-full">
-                    <p class="text-[1.6rem] my-2 leading-[1.5] my-8 ml-8 !cursor-pointer max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Max <span class="text-[20px] hover_card_arrow " style="transition: 0.3s all ease-out;">&#8594;</span></p>
+                <div class="border-2 max-[880px]:p-8 !cursor-pointer max-[630px]:w-[150px] max-[520px]:flex max-[520px]:w-full max-[380px]:flex-col max-[380px]:items-center">
+                    <img src="../../assets/nike_air_max.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[100px] max-[630px]:h-[100px]">
+                    <p class="text-[1.6rem] my-2 leading-[1.5] my-8 ml-8 !cursor-pointer max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em] max-[630px]:text-[1rem] max-[630px]:mt-6 max-[520px]:mt-0 max-[520px]:ml-8 max-[520px]:text-[1.4rem]   max-[380px]:mt-8  max-[380px]:ml-0" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Nike Air Max <span class="text-[20px] hover_card_arrow " style="transition: 0.3s all ease-out;">&#8594;</span></p>
                 </div>
             </router-link>
             <router-link to="/store" class="hover_card">
-                <div class="border-2 max-[880px]:p-8 !cursor-pointer">
-                    <img src="../../assets/yeezy.jpg" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[400px] max-[630px]:h-full">
-                    <p class="text-[1.6rem] my-2 leading-[1.5] my-8 ml-8 !cursor-pointer max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Yeezy <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
+                <div class="border-2 max-[880px]:p-8 !cursor-pointer max-[630px]:w-[150px] max-[520px]:flex max-[520px]:w-full max-[380px]:flex-col max-[380px]:items-center">
+                    <img src="../../assets/yeezy.jpg" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[100px] max-[630px]:h-[100px]">
+                    <p class="text-[1.6rem] my-2 leading-[1.5] my-8 ml-8 !cursor-pointer max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em] max-[520px]:mt-0 max-[520px]:ml-8   max-[380px]:mt-8  max-[380px]:ml-0" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Yeezy <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
                 </div>
             </router-link>
             <router-link to="/store" class="hover_card">
-                <div class="border-2 max-[880px]:p-8 !cursor-pointer">
-                    <img src="../../assets/ostalo.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[400px] max-[630px]:h-full">
-                    <p class="text-[1.6rem] my-2 leading-[1.5] my-8 ml-8 !cursor-pointer max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em]" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Ostalo <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
+                <div class="border-2 max-[880px]:p-8 !cursor-pointer max-[630px]:w-[150px] max-[520px]:flex max-[520px]:w-full max-[380px]:flex-col max-[380px]:items-center">
+                    <img src="../../assets/ostalo.png" alt="" class="w-[500px] !cursor-pointer h-[30rem] object-cover max-[1310px]:w-[300px] max-[1310px]:h-[300px] max-[880px]:w-[150px] max-[880px]:h-[150px] max-[630px]:w-[100px] max-[630px]:h-[100px]">
+                    <p class="text-[1.6rem] my-2 leading-[1.5] my-8 ml-8 !cursor-pointer max-[880px]:text-center max-[880px]:ml-0 max-[880px]:mb-0 flex flex-row items-center max-[880px]:justify-center gap-[0.5em] max-[520px]:mt-0 max-[520px]:ml-8   max-[380px]:mt-8  max-[380px]:ml-0" style="color: rgba(16,16,16);font-family: 'Roboto', sans-serif;">Ostalo <span class="text-[20px] hover_card_arrow" style="transition: 0.3s all ease-out;">&#8594;</span></p>
                 </div>
             </router-link>
             </div>

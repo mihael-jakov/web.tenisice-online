@@ -6,7 +6,7 @@
                 <img src="../../assets/tenisice-logo.png" alt="" class="w-[100px] h-[100px]">
                 <p class="mt-[15px] mb-[35px]">Najbolje cijene, za najbolju kvalitetu</p>
                 <div class="flex flex-row items-center gap-[0.5em] mb-4"><img src="../../assets/footer_phone.svg" alt="" class="w-[25px] h-[25px]"><span class="max-[360px]:flex max-[360px]:flex-col"> <a  href="tel:+385917292812">(+385) 91 729 2812</a><span class="max-[360px]:hidden mx-2">|</span><a href="tel:+385993600200">(+385) 99 360 0200</a> </span></div>
-                <div class="flex flex-row items-center gap-[0.5em]"><img src="../../assets/footer_mail.svg" alt="" class="w-[25px] h-[25px]"><a href="mailto:jakov.sijarto2@gmail.com">jakov.sijarto2@gmail.com</a></div>
+                <div class="flex flex-row items-center gap-[0.5em]"><img src="../../assets/footer_mail.svg" alt="" class="w-[25px] h-[25px]"><a href="mailto:luxuryshopcroatia@gmail.com">luxuryshopcroatia@gmail.com</a></div>
                 </li>
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center">
                 <p class="mb-[30px] !text-white text-[16px] font-bold uppercase leading-[24px] big-text">information</p>

@@ -1,16 +1,16 @@
 <template>
     <navigation_menu/>
-    <div class="h-[120vh] max-[1010px]:h-[200vh] bg-[#131313] w-full flex justify-center items-center max-[400px]:h-[160vh]">
-        <div class="w-[1440px] flex mx-8 max-[1010px]:flex-col max-[1010px]:w-auto">
-            <div class="flex justify-center">
-                <img :src="selectedProducts.image" alt="" class="w-[800px] h-[650px] object-cover rounded-[10px] max-[700px]:mt-[1.4rem] max-[400px]:h-[400px]">
+    <div class=" h-full pt-[200px] pb-[150px]  bg-[#131313] w-full flex justify-center items-center max-[760px]:pb-[50px] max-[760px]:pt-[160px] max-[560px]:!justify-start max-[560px]:!items-start  max-[560px]:pt-[120px] ">
+        <div class="w-[1440px] flex mx-8 max-[560px]:flex-col">
+            <div class="flex justify-center max-h-[600px]">
+                <img :src="selectedProducts.image" alt="" class="w-[800px] h-[650px] object-cover rounded-[10px] max-[920px]:mt-[1.4rem] max-[920px]:h-[500px] max-[760px]:h-[400px] max-[760px]:w-[400px] max-[760px]:mt-[4.4rem] max-[560px]:mt-0 ">
             </div>
-            <div class="flex justify-start pl-[2rem] flex-col text-[white]  max-[1010px]:mt-8 max-[1010px]:pl-0">
+            <div class="flex justify-start pl-[2rem] flex-col text-[white]  max-[1010px]:mt-8 max-[560px]:pl-0">
                 <p class="uppercase text-[10px] tracking-[0.13rem] assistant_font  leading-[1rem]">tenisice online</p>
-                <p class="my-[1.5rem] text-[5rem] assistant_font max-[1010px]:my-[0.2rem] max-[490px]:text-[3rem] max-[300px]:text-[2rem]">{{ selectedProducts.name }}</p>
+                <p class="my-[1.5rem] text-[5rem] assistant_font max-[1010px]:my-[0.2rem] max-[920px]:text-[3rem] max-[300px]:text-[2rem]">{{ selectedProducts.name }}</p>
                 <div class="flex gap-4 items-center max-[300px]:mt-4">
                   <p class="line-through text-[white] text-[13px]">{{ selectedProducts.price_before }}€</p>
-                  <p class="text-[2.2rem] text-[white] max-[300px]:text-[1.5rem] ">{{ selectedProducts.price }}€</p>
+                  <p class="text-[2.2rem] text-[white] max-[920px]:text-[1.5rem] ">{{ selectedProducts.price }}€</p>
                 </div>
                 <div class="custom-select mt-6">
                     <select>
