@@ -1,6 +1,6 @@
 <template>
     <navigation_menu/>
-    <div class=" h-full pt-[200px] pb-[150px]  bg-[#131313] w-full flex justify-center items-center max-[760px]:pb-[50px] max-[760px]:pt-[160px] max-[560px]:!justify-start max-[560px]:!items-start  max-[560px]:pt-[120px] ">
+    <div class=" h-full pt-[200px] pb-[150px] bg-[#131313] w-full flex justify-center items-center max-[760px]:pb-[50px] max-[760px]:pt-[160px] max-[560px]:!justify-start max-[560px]:!items-start  max-[560px]:pt-[120px] ">
         <div class="w-[1440px] flex mx-8 max-[560px]:flex-col">
             <div class="flex justify-center max-h-[600px]">
                 <img :src="selectedProducts.image" alt="" class="w-[800px] h-[650px] object-cover rounded-[10px] max-[920px]:mt-[1.4rem] max-[920px]:h-[500px] max-[760px]:h-[400px] max-[760px]:w-[400px] max-[760px]:mt-[4.4rem] max-[560px]:mt-0 ">

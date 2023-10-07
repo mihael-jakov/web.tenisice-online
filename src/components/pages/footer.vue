@@ -10,9 +10,9 @@
                 </li>
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center">
                 <p class="mb-[30px] !text-white text-[16px] font-bold uppercase leading-[24px] big-text">information</p>
-                <p class="my-[16px] text-[14px]"><router-link to="/">Privacy Policy</router-link></p>
-                <p class="my-[16px] text-[14px]"><router-link to="/">Refund Policy</router-link></p>
-                <p class="my-[16px] text-[14px]"><router-link to="/">Terms Of Service</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/PrivacyPolicy">Privacy Policy</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/RefundPolicy">Refund Policy</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/TermsOfService">Terms Of Service</router-link></p>
                 </li>
             </ul>
             <ul class="flex flex-row max-[1430px]:flex-col gap-[10em] max-[850px]:gap-8">
@@ -30,7 +30,7 @@
                     <button class="px-[18px] h-[100%] border-2 max-[360px]:w-[100%] max-[360px]:flex max-[360px]:justify-center max-[360px]:items-center max-[360px]:h-[50%] max-[360px]:mt-4"><img src="../../assets/footer_button_send.svg" alt="" class="w-[25px] h-[25px]"></button>
                 </form>
                     <div class="flex flex-row mt-[20px] gap-[2em]">
-                        <a href="https://www.instagram.com/tenisiceonline_/" target="_blank" class="border-2 p-[10px]"><img src="../../assets/footer_instagram.svg" alt="" class="w-[30px] h-[30px]" ></a>
+                        <a href="https://www.instagram.com/luxury.shop.balkan/" target="_blank" class="border-2 p-[10px]"><img src="../../assets/footer_instagram.svg" alt="" class="w-[30px] h-[30px]" ></a>
                         <a href="https://www.tiktok.com/@tenisice_online" target="_blank" class="border-2 p-[10px]"><img src="../../assets/footer_tiktok.svg" alt="" class="w-[30px] h-[30px]" ></a>
                     </div>
                 </li>
