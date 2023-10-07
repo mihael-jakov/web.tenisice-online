@@ -11,7 +11,7 @@
       </ul>
       <ul class="flex text-white justify-end items-center gap-[2em] w-[100%] pr-[2rem]">
         <li class="text-[1.5rem]">DOSTUPNOST :</li>
-        <router-link to="/store"  class="border-b">ODMAH</router-link>
+        <a href="https://tenisiceonline.netlify.app/#/store"  class="border-b">ODMAH</a>
       </ul>
       </div>
       

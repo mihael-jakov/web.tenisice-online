@@ -2,16 +2,16 @@
     <navigation_menu/>
     <h1 class="text-[2rem] text-white uppercase font-bold py-32 pt-[5em] text-center bg-[#131313]">TENISICE</h1>
     <div class="flex w-full flex-col items-start justify-center max-[480px]:flex-col !overflow-x-hidden bg-[#131313]">
-      <div class="flex w-full flex-row items-start justify-center max-[480px]:flex-col">
-        <ul class="flex text-white justify-start gap-[2em] w-[100%] pl-[2rem]">
+      <div class="flex w-full flex-row items-start justify-center max-[820px]:flex-col max-[820px]:gap-[2em]">
+        <ul class="flex text-white justify-start gap-[2em] w-[100%] pl-[2rem] max-[490px]:flex-col max-[490px]:items-center max-[490px]:p-0">
         <li class="text-[1.5rem]">MODEL :</li>
         <button @click="yeezy_active" class="span_dot flex items-center gap-[10px]">YEEZY</button>
         <button @click="offwhite_active" class="span_dot flex items-center gap-[10px]">OFF WHITE</button>
         <button @click="ostalo_active" class="span_dot flex items-center gap-[10px]">OSTALO</button>
       </ul>
-      <ul class="flex text-white justify-end gap-[2em] w-[100%] pr-[2rem] items-center">
+      <ul class="flex text-white justify-end gap-[2em] w-[100%] pr-[2rem] items-center max-[490px]:justify-center max-[490px]:flex-col max-[490px]:p-0">
         <li class="text-[1.5rem]">DOSTUPNOST :</li>
-        <router-link to="/dostupno" class="border-b">NARUČITI</router-link>
+        <a href="https://tenisiceonline.netlify.app/#/dostupno"  class="border-b">ODMAH</a>
       </ul>
       </div>
       
