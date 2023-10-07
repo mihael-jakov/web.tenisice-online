@@ -6,7 +6,7 @@
   <!-- <li class="px-16 "><router-link class="pb-[10px]" to="/about">About Us</router-link></li> -->  
     <li><img src="../../assets/tenisice-logo.png" alt="" class="w-[100px] h-[100px]"></li>
    <!-- <li class="px-16"><router-link class="pb-[10px]" to="/contact">Contact Us</router-link></li>-->  
-    <li class=""><router-link class="pb-[10px]" to="/store">Store</router-link></li>
+    <li class=""><router-link class="pb-[10px]" to="/store">TENISICE</router-link></li>
   </ul>
   </div>
  

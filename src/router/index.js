@@ -9,6 +9,7 @@ import productdetails from "../components/pages/productdetail.vue"
 import PrivacyPolicy from "../components/pages/Rules/pp.vue"
 import RefundPolicy from "../components/pages/Rules/rp.vue"
 import TermsOfService from "../components/pages/Rules/tos.vue"
+import Dostupno from "../components/pages/naruciti.vue"
 
 const routes = [
     {
@@ -38,6 +39,10 @@ const routes = [
     {
         path:'/TermsOfService',
         component: TermsOfService
+    },
+    {
+        path:'/dostupno',
+        component: Dostupno
     },
     {
         path:'/:id',

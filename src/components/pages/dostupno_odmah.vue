@@ -2,25 +2,19 @@
     <navigation_menu/>
     <h1 class="text-[2rem] text-white uppercase font-bold py-32 pt-[5em] text-center bg-[#131313]">TENISICE</h1>
     <div class="flex w-full flex-col items-start justify-center max-[480px]:flex-col !overflow-x-hidden bg-[#131313]">
-      <ul class="flex text-white justify-center gap-[5em] w-[100%]">
-        <li class="flex items-center gap-[0.5em]" @click="modul_click_fun()">
-          <span>Model</span><span>&#8595;</span> 
-        </li>
-        <li class="w-[150px] h-[200px] bg-white absolute ml-[0em] mt-[2em] rounded-[15px] text-black flex flex-col justify-between items-start pl-4 py-4 border-2 border-[black]" v-if="modul_click">
-          <button @click="yeezy_active">YEEZY</button>
-          <button @click="offwhite_active">OFF WHITE</button>
-          <button @click="ostalo_active">OSTALO</button>
-        </li>
-        <!-- 
-        <button class="" @click="air_jordan_active">AIR JORDAN</button>
-        <li class="flex items-center gap-[0.5em]">
-          <span>Dostupnost</span><span>&#8595;</span> 
-        </li>
-        <li class="flex items-center gap-[0.5em]">
-          <span>Sale</span><span>&#8595;</span> 
-        </li>
-        -->
+      <div class="flex w-full flex-row items-start justify-center max-[480px]:flex-col">
+        <ul class="flex text-white justify-start gap-[2em] w-[100%] pl-[2rem]">
+        <li class="text-[1.5rem]">MODEL :</li>
+        <button @click="yeezy_active" class="span_dot flex items-center gap-[10px]">YEEZY</button>
+        <button @click="offwhite_active" class="span_dot flex items-center gap-[10px]">OFF WHITE</button>
+        <button @click="ostalo_active" class="span_dot flex items-center gap-[10px]">OSTALO</button>
       </ul>
+      <ul class="flex text-white justify-end gap-[2em] w-[100%] pr-[2rem] items-center">
+        <li class="text-[1.5rem]">DOSTUPNOST :</li>
+        <router-link to="/dostupno" class="border-b">NARUČITI</router-link>
+      </ul>
+      </div>
+      
       <div class="w-[full] flex pl-8 max-[480px]:w-[100%] max-[480px]:pl-0 overflow-hidden">
         <ul class="tenisice_visibility"  :class="{'air_jordan':air_jordan, 'yeezy':yeezy, 'offwhite':offwhite, 'ostalo':ostalo}" style="display: flex; flex-wrap: wrap; ">
             <li 
@@ -148,6 +142,14 @@ export default {
 </script>
 
 <style scoped>
+.span_dot::before{
+  content:"";
+  display:block;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 100%;
+}
 .images .image1 {
     position: absolute;
     object-fit: cover;

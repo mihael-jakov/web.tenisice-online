@@ -20,7 +20,7 @@
                 <p class="mb-[30px] !text-white text-[16px] font-bold uppercase leading-[24px] big-text">contact</p>
                 <p class="my-[16px] text-[14px]"><router-link to="about">About Us</router-link></p>
                 <p class="my-[16px] text-[14px]"><router-link to="/contact">Contact Us</router-link></p>
-                <p class="my-[16px] text-[14px]"><router-link to="/store">Our Store</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/store">Tenisice</router-link></p>
                 </li>
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-between max-[850px]:items-center">
                 <p class=" !text-white text-[16px] font-bold uppercase leading-[24px] big-text">pretplati se na newsletter</p>
