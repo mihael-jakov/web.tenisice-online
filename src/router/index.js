@@ -9,7 +9,8 @@ import productdetails from "../components/pages/productdetail.vue"
 import PrivacyPolicy from "../components/pages/Rules/pp.vue"
 import RefundPolicy from "../components/pages/Rules/rp.vue"
 import TermsOfService from "../components/pages/Rules/tos.vue"
-import Dostupno from "../components/pages/naruciti.vue"
+import Dostupno_Jordan from "../components/pages/naruciti_jordan.vue"
+import dostupnost_pick from "../components/pages/dostupnost_pick.vue"
 
 const routes = [
     {
@@ -41,8 +42,12 @@ const routes = [
         component: TermsOfService
     },
     {
-        path:'/dostupno',
-        component: Dostupno
+        path:'/dostupno_jordan',
+        component: Dostupno_Jordan
+    },
+    {
+        path:'/dostupnost_pick',
+        component:dostupnost_pick
     },
     {
         path:'/:id',

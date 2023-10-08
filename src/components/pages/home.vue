@@ -7,7 +7,7 @@
                 <p class="leading-[22px] text-[39px] text-white uppercase max-[750px]:leading-[40px]">Tenisice Online</p>
                 <p class="leading-[-2px] text-[56px] text-white uppercase font-bold my-4">Luxury Shoes</p>
                 <p class="text-hero">Sva markirana obuća i odjeća po nižim cijenama</p>
-                <router-link to="/store"><button class="border-2 mt-8 py-[7px] px-[35px] !bg-white text-[14px] text-[#242424] font-bold uppercase hover_herobutton !cursor-pointer">Store</button></router-link>
+                <router-link to="/dostupnost_pick"><button class="border-2 mt-8 py-[7px] px-[35px] !bg-white text-[14px] text-[#242424] font-bold uppercase hover_herobutton !cursor-pointer">Store</button></router-link>
             </div>
                 <img src="../../assets/home_heroimg.png" alt="" class="object-cover   max-[1060px]:w-[40%] ml-8 max-[750px]:opacity-[0.1] max-[750px]:absolute  max-[750px]:top-1/2 max-[750px]:left-1/2 max-[750px]:transform max-[750px]:-translate-x-1/2 max-[750px]:-translate-y-1/2 max-[750px]:ml-0 max-[750px]:w-[80%]">
             </div>
@@ -82,7 +82,7 @@
                 </li>
             </ul>
             </div>
-            <router-link to="/store"><button class="border-2 mb-16 mt-6 py-[10px] px-[42px] !bg-white text-[16px] text-[#242424] font-bold uppercase hover_herobutton !cursor-pointer">Store</button></router-link>
+            <router-link to="/dostupnost_pick"><button class="border-2 mb-16 mt-6 py-[10px] px-[42px] !bg-white text-[16px] text-[#242424] font-bold uppercase hover_herobutton !cursor-pointer">Store</button></router-link>
         </div>
 
 

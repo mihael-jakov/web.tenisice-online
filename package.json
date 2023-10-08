@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001546",
     "pinia": "^2.1.6",
     "vue": "^3.2.47",
     "vue-router": "^4.0.13"

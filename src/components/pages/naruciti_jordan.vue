@@ -3,20 +3,13 @@
     <h1 class="text-[2rem] text-white uppercase font-bold py-32 pt-[5em] text-center bg-[#131313]">TENISICE</h1>
     <div class="flex w-full flex-col items-start justify-center max-[480px]:flex-col !overflow-x-hidden bg-[#131313]">
       <div class="flex w-full flex-row items-start justify-center max-[480px]:flex-col">
-        <ul class="flex text-white justify-start gap-[2em] w-[100%] pl-[2rem]">
-        <li class="text-[1.5rem]">MODEL :</li>
-        <button @click="yeezy_active" class="span_dot flex items-center gap-[10px]">YEEZY</button>
-        <button @click="offwhite_active" class="span_dot flex items-center gap-[10px]">OFF WHITE</button>
-        <button @click="ostalo_active" class="span_dot flex items-center gap-[10px]">OSTALO</button>
-      </ul>
-      <ul class="flex text-white justify-end items-center gap-[2em] w-[100%] pr-[2rem]">
-        <li class="text-[1.5rem]">DOSTUPNOST :</li>
-        <a href="https://tenisiceonline.netlify.app/#/store"  class="border-b">ODMAH</a>
+      <ul class="flex text-white justify-end items-center w-[100%] pr-[2rem]">
+        <router-link to="/dostupnost_pick">NATRAG</router-link>
       </ul>
       </div>
       
       <div class="w-[full] flex pl-8 max-[480px]:w-[100%] max-[480px]:pl-0 overflow-hidden">
-        <ul class="tenisice_visibility"  :class="{'air_jordan':air_jordan, 'yeezy':yeezy, 'offwhite':offwhite, 'ostalo':ostalo}" style="display: flex; flex-wrap: wrap; ">
+        <ul class="tenisice_visibility" style="display: flex; flex-wrap: wrap; ">
             <li 
                 class="flex-col basis-[20%] max-[1880px]:basis-[25%] max-[1440px]:basis-[33%] max-[1105px]:basis-[50%] max-[480px]:basis-[50%] KEY FOR-LOOP"
                 v-for="naruciti_jordan in dostupno_jordan.products"
@@ -45,6 +38,16 @@
 </template>
 
 <script>
+export default {
+  mounted(){
+    if (localStorage.getItem('reloaded')) {
+        localStorage.removeItem('reloaded');
+    } else {
+        localStorage.setItem('reloaded', '1');
+        location.reload();
+    }
+  }
+  }
 </script>
 <script setup>
     import navigation_menu from "./navigation.vue"
@@ -54,7 +57,7 @@
     const dostupno_jordan = naruciti_jordan();
 
     onMounted(() =>{
-       dostupno_jordan.fetchProductsFromDB()
+       dostupno_jordan.fetchProductsFromDB();
     })
 </script>
 

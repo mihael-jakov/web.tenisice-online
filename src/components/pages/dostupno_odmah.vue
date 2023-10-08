@@ -9,9 +9,8 @@
         <button @click="offwhite_active" class="span_dot flex items-center gap-[10px]">OFF WHITE</button>
         <button @click="ostalo_active" class="span_dot flex items-center gap-[10px]">OSTALO</button>
       </ul>
-      <ul class="flex text-white justify-end gap-[2em] w-[100%] pr-[2rem] items-center max-[490px]:justify-center max-[490px]:flex-col max-[490px]:p-0">
-        <li class="text-[1.5rem]">DOSTUPNOST :</li>
-        <a href="https://tenisiceonline.netlify.app/#/dostupno"  class="border-b">ODMAH</a>
+      <ul class="flex text-white justify-end pr-[2rem]">
+        <router-link to="/dostupnost_pick">NATRAG</router-link>
       </ul>
       </div>
       
@@ -56,6 +55,14 @@ export default {
 
       modul_click:false,
     };
+  },
+  mounted(){
+    if (localStorage.getItem('reloaded')) {
+        localStorage.removeItem('reloaded');
+    } else {
+        localStorage.setItem('reloaded', '1');
+        location.reload();
+    }
   },
   methods: {
     modul_click_fun(){
