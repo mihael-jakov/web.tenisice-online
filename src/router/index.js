@@ -2,10 +2,10 @@ import { createRouter, createWebHashHistory  } from "vue-router";
 
 import home from "../components/pages/home.vue"
 import NotFound from "../components/notfound.vue"
-import about_us from "../components/pages/aboutus.vue"
 import contact from "../components/pages/contact.vue"
 import store from "../components/pages/dostupno_odmah.vue"
 import productdetails from "../components/pages/productdetail.vue"
+import faq from "../components/pages/faq.vue"
 import PrivacyPolicy from "../components/pages/Rules/pp.vue"
 import RefundPolicy from "../components/pages/Rules/rp.vue"
 import TermsOfService from "../components/pages/Rules/tos.vue"
@@ -18,16 +18,16 @@ const routes = [
         component: home
     },
     {
-        path:'/about',
-        component: about_us
-    },
-    {
         path:'/contact',
         component: contact
     },
     {
         path:'/store',
         component: store
+    },
+    {
+        path:'/faq',
+        component: faq
     },
     {
         path:'/PrivacyPolicy',

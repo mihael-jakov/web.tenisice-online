@@ -18,7 +18,7 @@
             <ul class="flex flex-row max-[1430px]:flex-col gap-[10em] max-[850px]:gap-8">
                 <li class="flex flex-col justify-between h-[250px] max-[850px]:w-full max-[850px]:justify-center max-[850px]:items-center">
                 <p class="mb-[30px] !text-white text-[16px] font-bold uppercase leading-[24px] big-text">contact</p>
-                <p class="my-[16px] text-[14px]"><router-link to="about">About Us</router-link></p>
+                <p class="my-[16px] text-[14px]"><router-link to="/faq">FAQ</router-link></p>
                 <p class="my-[16px] text-[14px]"><router-link to="/contact">Contact Us</router-link></p>
                 <p class="my-[16px] text-[14px]"><router-link to="/store">Tenisice</router-link></p>
                 </li>

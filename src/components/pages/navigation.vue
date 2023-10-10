@@ -1,11 +1,11 @@
 <template>
 <div>
   <div :class="{ 'onScroll': !view.topOfPage}"  class="w-full flex justify-center px-8 max-[340px]:px-2 fixed z-[100] bg-[#131313]">
-    <ul class="flex w-[700px] justify-between items-center text-[14px] uppercase tracking-[0.2rem] font-bold h-[100px] max-[749px]:hidden">
+    <ul class="flex w-[1300px] justify-between items-center text-[14px] uppercase tracking-[0.2rem] font-bold h-[100px] max-[749px]:hidden">
     <li class=""><router-link class="pb-[10px]" to="/">Home</router-link></li>
-  <!-- <li class="px-16 "><router-link class="pb-[10px]" to="/about">About Us</router-link></li> -->  
+    <li class="px-16 text-center"><router-link class="pb-[10px]" to="/faq">FAQ</router-link></li>  
     <li><img src="../../assets/tenisice-logo.png" alt="" class="w-[100px] h-[100px]"></li>
-   <!-- <li class="px-16"><router-link class="pb-[10px]" to="/contact">Contact Us</router-link></li>-->  
+    <li class="px-16 text-center"><router-link class="pb-[10px]" to="/contact">Contact Us</router-link></li>    
     <li class=""><router-link class="pb-[10px]" to="/dostupnost_pick">TENISICE</router-link></li>
   </ul>
   </div>
@@ -29,12 +29,11 @@
     </ul>
     
   
-  <div  :class="{ 'dojdi_dole' : isActive_var}" class="fixed flex-col w-[100%] z-[2] top-[-30em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-[40rem] bg-[#131313] flex justify-end gap-[5em] items-center text-white" style="transition:0.5s all ease-in;">
-    <!--<p class=""><router-link class="" to="/about">About Us</router-link></p>-->
-   <!--<p class="mt-16"><router-link class="" to="/contact">Contact Us</router-link></p>-->
-   <p class="mt-32"><router-link class="" to="/">Home</router-link></p>
-    <p class="mb-16"><router-link class="" to="/dostupnost_pick">Store</router-link></p>
-    <!--<p class="my-16"><router-link class="" to="/">FAQ</router-link></p>-->
+  <div  :class="{ 'dojdi_dole' : isActive_var}" class="fixed flex-col w-[100%] z-[2] top-[-30em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-[45rem] gap-[4em] bg-[#131313] flex justify-end  items-center text-white pb-12" style="transition:0.5s all ease-in;">
+    <router-link class="" to="/">Home</router-link>
+   <router-link class="" to="/contact">Contact Us</router-link>
+    <router-link class="" to="/dostupnost_pick">Store</router-link>
+    <router-link class="" to="/faq">FAQ</router-link>
   </div>
 </div>
 </div>
@@ -75,6 +74,11 @@ methods: {
   font-family:inherit;
   font-size:14px;
   color:white;
+}
+@media only screen and (max-width:750px) {
+  .router-link-active{
+  display:none
+}
 }
 .dojdi_dole{
   top:0em;
