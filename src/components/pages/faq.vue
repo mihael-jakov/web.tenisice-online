@@ -1,7 +1,7 @@
 <template>
     <navigation_menu/>
     <div>
-
+        s
     </div>
     <footer_page/>
 </template>
