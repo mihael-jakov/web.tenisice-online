@@ -9,12 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@dafcoe/vue-collapsible-panel": "^0.2.0",
     "@emailjs/browser": "^3.11.0",
     "caniuse-lite": "^1.0.30001546",
     "emailjs-com": "^3.2.0",
     "pinia": "^2.1.6",
     "sweetalert": "^2.1.2",
     "vue": "^3.2.47",
+    "vue-collapsed": "^1.2.8",
     "vue-router": "^4.0.13"
   },
   "devDependencies": {
