@@ -37,27 +37,30 @@
     <footer_page/>
 </template>
 
-<script>
-export default {
-  mounted(){
-    if (localStorage.getItem('reloaded')) {
-        localStorage.removeItem('reloaded');
-    } else {
-        localStorage.setItem('reloaded', '1');
-        location.reload();
-    }
-  }
-  }
-</script>
 <script setup>
     import navigation_menu from "./navigation.vue"
     import footer_page from "../pages/footer.vue"
     import { naruciti_jordan } from '../../stores/naruciti_jordan'
     import { onMounted } from 'vue';
+    import { useRouter } from "vue-router"
+
     const dostupno_jordan = naruciti_jordan();
+  
+    
+    const router = useRouter()
+
+    const gotoproductpage = (id) => {
+      router.push({ name: 'productsdetail', params: { id }})
+    }
 
     onMounted(() =>{
        dostupno_jordan.fetchProductsFromDB();
+       if (localStorage.getItem('reloaded')) {
+        localStorage.removeItem('reloaded');
+    } else {
+        localStorage.setItem('reloaded', '1');
+        location.reload();
+    }
     })
 </script>
 
@@ -72,5 +75,28 @@ export default {
   .images:hover .image1{
     opacity: 1;
   }
-
+  .pagination-container {
+    display: flex;
+    column-gap: 10px;
+  }
+  .paginate-buttons {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(217, 217, 217);
+    color: black;
+  }
+  .paginate-buttons:hover {
+    background-color: #d8d8d8;
+  }
+  .active-page {
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    color: white;
+  }
+  .active-page:hover {
+    background-color: #2988c8;
+  }
 </style>

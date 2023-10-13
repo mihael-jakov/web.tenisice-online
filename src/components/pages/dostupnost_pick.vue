@@ -19,7 +19,7 @@
         <div class="flex flex-row gap-[5em] max-[620px]:w-full max-[620px]:justify-center max-[620px]:gap-[1em] max-[450px]:flex-col" v-if="naruciti">
             <div class="flex gap-[5em] max-[1240px]:flex-col max-[620px]:gap-[1em] max-[620px]:ml-4 max-[450px]:mx-4">
                 <router-link to="/dostupno_jordan" class="flex justify-center items-center border h-[9rem] w-[15rem] text-center py-8 px-8 text-[2rem] max-[620px]:w-full">NIKE JORDAN</router-link> 
-                <div class="flex justify-center items-center border h-[9rem] w-[15rem] text-center py-8 px-8 text-[2rem] max-[620px]:w-full">YEZZY ADIDAS</div>
+                <router-link to="/dostupno_yeezy" class="flex justify-center items-center border h-[9rem] w-[15rem] text-center py-8 px-8 text-[2rem] max-[620px]:w-full">YEZZY ADIDAS</router-link>
             </div>
             <div class="flex gap-[5em] max-[1240px]:flex-col max-[620px]:gap-[1em] max-[620px]:mr-4 max-[450px]:mx-4">
                 <div class="flex justify-center items-center border h-[9rem] w-[15rem] text-center py-8 px-8 text-[2rem] max-[620px]:w-full">OFF WHITE</div>

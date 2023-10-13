@@ -10,12 +10,17 @@ import PrivacyPolicy from "../components/pages/Rules/pp.vue"
 import RefundPolicy from "../components/pages/Rules/rp.vue"
 import TermsOfService from "../components/pages/Rules/tos.vue"
 import Dostupno_Jordan from "../components/pages/naruciti_jordan.vue"
+import Dostupno_yeezy from "../components/pages/naruciti_yeezy.vue"
 import dostupnost_pick from "../components/pages/dostupnost_pick.vue"
 
 const routes = [
     {
         path: '/',
         component: home
+    },
+    {
+        path: '/dostupno_yeezy',
+        component:Dostupno_yeezy
     },
     {
         path:'/contact',

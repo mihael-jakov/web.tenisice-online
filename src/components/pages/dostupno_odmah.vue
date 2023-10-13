@@ -5,11 +5,11 @@
       <div class="flex w-full flex-row items-start justify-center max-[820px]:flex-col max-[820px]:gap-[2em]">
         <ul class="flex text-white justify-start gap-[2em] w-[100%] pl-[2rem] max-[490px]:flex-col max-[490px]:items-center max-[490px]:p-0">
         <li class="text-[1.5rem]">MODEL :</li>
-        <button @click="yeezy_active" class="span_dot flex items-center gap-[10px]">YEEZY</button>
-        <button @click="offwhite_active" class="span_dot flex items-center gap-[10px]">OFF WHITE</button>
-        <button @click="ostalo_active" class="span_dot flex items-center gap-[10px]">OSTALO</button>
+        <button @click="yeezy_active" class="flex items-center gap-[10px]">YEEZY</button>
+        <button @click="offwhite_active" class="flex items-center gap-[10px]">OFF WHITE</button>
+        <button @click="ostalo_active" class="flex items-center gap-[10px]">OSTALO</button>
       </ul>
-      <ul class="flex text-white justify-end pr-[2rem]">
+      <ul class="flex text-white justify-end items-center w-[100%] pr-[2rem]">
         <router-link to="/dostupnost_pick">NATRAG</router-link>
       </ul>
       </div>
@@ -149,14 +149,6 @@ export default {
 </script>
 
 <style scoped>
-.span_dot::before{
-  content:"";
-  display:block;
-  width: 6px;
-  height: 6px;
-  background-color: white;
-  border-radius: 100%;
-}
 .images .image1 {
     position: absolute;
     object-fit: cover;

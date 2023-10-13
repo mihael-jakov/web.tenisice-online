@@ -3,7 +3,7 @@
     <div class=" h-full pt-[200px] pb-[150px] bg-[#131313] w-full flex justify-center items-center max-[760px]:pb-[50px] max-[760px]:pt-[160px] max-[560px]:!justify-start max-[560px]:!items-start  max-[560px]:pt-[120px] ">
         <div class="w-[1440px] flex mx-8 max-[560px]:flex-col">
             <div class="flex justify-center max-h-[600px]">
-                <img :src="selectedProducts.image" alt="" class="w-[800px] h-[650px] object-cover rounded-[10px] max-[920px]:mt-[1.4rem] max-[920px]:h-[500px] max-[760px]:h-[400px] max-[760px]:w-[400px] max-[760px]:mt-[4.4rem] max-[560px]:mt-0 ">
+              <img :src="selectedProducts.image" alt="" class="w-[800px] h-[650px] object-cover rounded-[10px] max-[920px]:mt-[1.4rem] max-[920px]:h-[500px] max-[760px]:h-[400px] max-[760px]:w-[400px] max-[760px]:mt-[4.4rem] max-[560px]:mt-0 ">
             </div>
             <div class="flex justify-start pl-[2rem] flex-col text-[white]  max-[1010px]:mt-8 max-[560px]:pl-0">
                 <p class="uppercase text-[10px] tracking-[0.13rem] assistant_font  leading-[1rem]">tenisice online</p>
@@ -20,11 +20,11 @@
                 </div>
                 <p class="mt-8 assistant_font">Pogledaj VIDEO:</p>
                 <div class="flex flex-row mt-[20px] gap-[2em]">
-                        <a href="https://www.instagram.com/tenisiceonline_/" target="_blank" class="border-2 p-[10px]"><img src="../../assets/footer_instagram.svg" alt="" class="w-[30px] h-[30px]" ></a>
+                        <a href="https://www.instagram.com/luxury.shop.balkan/" target="_blank" class="border-2 p-[10px]"><img src="../../assets/footer_instagram.svg" alt="" class="w-[30px] h-[30px]" ></a>
                         <a href="https://www.tiktok.com/@tenisice_online" target="_blank" class="border-2 p-[10px]"><img src="../../assets/footer_tiktok.svg" alt="" class="w-[30px] h-[30px]" ></a>
                     </div>
 
-              <button class="border-2 mt-8 py-[12px] px-[35px] bg-white text-[14px] text-[#242424] font-bold uppercase hover_herobutton !cursor-pointer">Contact Us NOW!</button> 
+              <button class="border-2 mt-8 py-[12px] px-[35px] bg-white text-[14px] text-[#242424] font-bold uppercase hover_herobutton !cursor-pointer">Kupi Tenisice!</button> 
             </div>
         </div>
     </div>
@@ -43,12 +43,17 @@ export default defineComponent({
     import { computed } from "vue"
     import { useRoute } from "vue-router"
     import { dostupno_odmah } from '../../stores/dostupnoodmah'
+    import { naruciti_jordan } from '../../stores/naruciti_jordan'
 
+    const store2 = naruciti_jordan()
     const store = dostupno_odmah()
     const route = useRoute()
 
     const selectedProducts = computed(() => {
         return store.products.find((item) => item.id === Number(route.params.id))
+    })
+    const selectedProducts2 = computed(() => {
+        return store2.products.find((item) => item.id === Number(route.params.id))
     })
 </script>
 

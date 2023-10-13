@@ -11,6 +11,7 @@
   "dependencies": {
     "@dafcoe/vue-collapsible-panel": "^0.2.0",
     "@emailjs/browser": "^3.11.0",
+    "@ocrv/vue-tailwind-pagination": "^0.0.4",
     "caniuse-lite": "^1.0.30001546",
     "emailjs-com": "^3.2.0",
     "pinia": "^2.1.6",
